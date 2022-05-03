@@ -1,1 +1,1 @@
-## NPM Packages Installed:
+## List of NPM Packages Installed:
