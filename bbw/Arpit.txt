@@ -7,3 +7,4 @@
 5. npm install @mui/material @emotion/react @emotion/styled
 6. npm i @headlessui/react
 7. npm i @heroicons/react
+8. npm i @mui/icons-material
