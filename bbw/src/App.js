@@ -1,9 +1,11 @@
+// import NavBar from "./Components/NavBar";
+import ArpitMainRoutes from "./Routes/ArpitMainRoutes";
 
 function App() {
   return (
-    <div>
-    
-    </div>
+    <>
+      <ArpitMainRoutes />
+    </>
   );
 }
 

@@ -5,3 +5,5 @@
 3. npm i react-router-dom@6
 4. npm i styled-components
 5. npm install @mui/material @emotion/react @emotion/styled
+6. npm i @headlessui/react
+7. npm i @heroicons/react
