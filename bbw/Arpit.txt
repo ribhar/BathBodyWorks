@@ -1,1 +1,7 @@
 ## List of NPM Packages Installed:
+
+1. Tailwind Install
+2. npm i react-router-dom
+3. npm i react-router-dom@6
+4. npm i styled-components
+5. npm install @mui/material @emotion/react @emotion/styled
