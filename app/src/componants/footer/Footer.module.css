@@ -1,0 +1,77 @@
+.footer {
+  display: grid;
+}
+.footer_up {
+  width: 82%;
+  margin: auto;
+  padding-left: 30px;
+
+  display: grid;
+  grid-template-columns: 28% 17% 13% 17% 12%;
+  gap: 2%;
+  text-align: left;
+}
+.footer_up div a {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+}
+.footer_up div p {
+  margin-bottom: -10px;
+}
+.footer_mid {
+  width: 82%;
+  margin: auto;
+  padding-left: 30px;
+  display: grid;
+  grid-template-columns: 30% 45%;
+  justify-content: space-between;
+}
+.footer_mid > div:first-child {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+}
+.footer_mid > div:first-child a {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+.btnAt {
+  height: 36px;
+}
+.footer_dn {
+  background-color: whitesmoke;
+  margin: auto;
+  height: 150px;
+  width: 100%;
+}
+.footer_dn > div:first-child a {
+  color: black;
+  text-decoration: none;
+}
+.footer_dn > div:first-child span {
+  font-size: 12px;
+}
+
+.underline_hover {
+  display: inline-block;
+  padding-top: -10px;
+  padding-bottom: 1px;
+  position: relative;
+  margin: 8px;
+  font-size: 13px;
+}
+.underline_hover::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 1px;
+  background-color: rgb(92, 83, 83);
+  transition: width;
+}
+.underline_hover:hover::before {
+  width: 100%;
+}
