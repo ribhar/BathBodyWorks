@@ -1,7 +1,7 @@
-.footer {
+.footerAt {
   display: grid;
 }
-.footer_up {
+.footer_upAt {
   width: 82%;
   margin: auto;
   padding-left: 30px;
@@ -11,34 +11,35 @@
   gap: 2%;
   text-align: left;
 }
-.footer_up div a {
-  color: black;
+.footer_upATagAt {
+  color: rgb(85, 82, 82);
   text-decoration: none;
   font-size: 14px;
+  margin-top: 20px;
 }
-.footer_up div p {
-  margin-bottom: -10px;
-}
-.footer_mid {
+
+.footer_midAt {
   width: 82%;
   margin: auto;
   padding-left: 30px;
   display: grid;
   grid-template-columns: 30% 45%;
-  justify-content: space-between;
+  gap: 30%;
 }
-.footer_mid > div:first-child {
+.footer_midAt > div:first-child {
   display: flex;
   gap: 20px;
   font-size: 20px;
 }
-.footer_mid > div:first-child a {
+.footer_midAt > div:first-child a {
   height: 35px;
   width: 35px;
   border-radius: 50%;
 }
 .btnAt {
-  height: 36px;
+  height: 35px;
+  width: 70px;
+  margin-top: 2px;
   background-color: black;
   color: white;
   border: none;
@@ -52,21 +53,23 @@
   transition: 0.4s ease-in;
 }
 
-.footer_dn {
+.footer_dnAt {
   background-color: whitesmoke;
+  display: grid;
   margin: auto;
-  height: 150px;
+  height: 130px;
   width: 100%;
+  text-align: center;
 }
-.footer_dn > div:first-child a {
+.footer_dnAt > div:first-child a {
   color: black;
   text-decoration: none;
 }
-.footer_dn > div:first-child span {
+.footer_dnAt > div:first-child span {
   font-size: 12px;
 }
 
-.underline_hover {
+.underline_hoverAt {
   display: inline-block;
   padding-top: -10px;
   padding-bottom: 1px;
@@ -74,7 +77,7 @@
   margin: 8px;
   font-size: 13px;
 }
-.underline_hover::before {
+.underline_hoverAt::before {
   content: "";
   position: absolute;
   left: 0;
@@ -84,6 +87,12 @@
   background-color: rgb(92, 83, 83);
   transition: width;
 }
-.underline_hover:hover::before {
+.underline_hoverAt:hover::before {
   width: 100%;
+}
+
+.h5TagAt {
+  font-size: 13px;
+  font-weight: bold;
+  padding-bottom: 15px;
 }
