@@ -2,9 +2,10 @@ import React from "react";
 import AnnounceBar from "./AnnounceBar";
 import PickUpImg from "../Images/PickUpImg.PNG";
 import Example from "./CategoriesNav";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const NavBar = () => {
+  const navigate = useNavigate();
   return (
     <div id="arNavbar">
       {/* AnnounceBar */}
@@ -40,6 +41,7 @@ const NavBar = () => {
               style={{ borderRight: "none" }}
             >
               <input
+                onClick={() => navigate("/search")}
                 className=" p-1 w-full text-black rounded-[2px] outline-none"
                 type="text"
                 placeholder="Search by fragrance or product..."
