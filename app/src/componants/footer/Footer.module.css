@@ -39,7 +39,19 @@
 }
 .btnAt {
   height: 36px;
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.5s ease-in;
 }
+.btnAt:hover {
+  background-color: rgb(224, 220, 220);
+  color: black;
+  transition: 0.4s ease-in;
+}
+
 .footer_dn {
   background-color: whitesmoke;
   margin: auto;
