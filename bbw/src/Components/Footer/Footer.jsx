@@ -75,40 +75,40 @@ const Footer = () => {
           <Link to={"/"}>
             {" "}
             <p style={{ marginTop: "3px" }}>
-              <a className={styles.footer_upATagAt}>Help & FAQs</a>
+              <span className={styles.footer_upATagAt}>Help & FAQs</span>
             </p>
           </Link>
           <Link to={"/"}>
             {" "}
             <p style={{ marginTop: "3px" }}>
-              <a className={styles.footer_upATagAt}>Live Chat 8a - 12a ET</a>
+              <span className={styles.footer_upATagAt}>Live Chat 8a - 12a ET</span>
             </p>
           </Link>
           <Link to={"/"}>
             {" "}
             <p style={{ marginTop: "3px" }}>
-              <a className={styles.footer_upATagAt}>Shipping</a>
+              <span className={styles.footer_upATagAt}>Shipping</span>
             </p>
           </Link>
           <Link to={"/"}>
             <p style={{ marginTop: "3px" }}>
-              <a className={styles.footer_upATagAt}>Returns & Exchanges</a>
+              <span className={styles.footer_upATagAt}>Returns & Exchanges</span>
             </p>
           </Link>
           <Link to={"/"}>
             <p style={{ marginTop: "3px" }}>
-              <a className={styles.footer_upATagAt}>Order Tracking</a>
+              <span className={styles.footer_upATagAt}>Order Tracking</span>
             </p>
           </Link>
           <Link to={"/"}>
             {" "}
             <p style={{ marginTop: "3px" }}>
-              <a className={styles.footer_upATagAt}>Corporate Sales & Gifts</a>
+              <span className={styles.footer_upATagAt}>Corporate Sales & Gifts</span>
             </p>
           </Link>
           <Link to={"/contact"}>
             <p style={{ marginTop: "3px" }}>
-              <a className={styles.footer_upATagAt}>Contact Us</a>
+              <span className={styles.footer_upATagAt}>Contact Us</span>
             </p>
           </Link>
         </div>
@@ -116,25 +116,25 @@ const Footer = () => {
           <h5 className={styles.h5TagAt}>MY ACCOUNT</h5>
           <p style={{ marginTop: "3px" }}>
             <Link to={"/account"}>
-              <a className={styles.footer_upATagAt}>Sign In or Sign Up</a>
+              <span className={styles.footer_upATagAt}>Sign In or Sign Up</span>
             </Link>
           </p>
           <Link to={"/"}>
             {" "}
             <p style={{ marginTop: "3px" }}>
-              <a className={styles.footer_upATagAt}>Order Tracking</a>
+              <span className={styles.footer_upATagAt}>Order Tracking</span>
             </p>
           </Link>
           <Link to={"/"}>
             {" "}
             <p style={{ marginTop: "3px" }}>
-              <a className={styles.footer_upATagAt}>My Auto Refresh</a>
+              <span className={styles.footer_upATagAt}>My Auto Refresh</span>
             </p>
           </Link>
           <Link to={"/"}>
             {" "}
             <p style={{ marginTop: "3px" }}>
-              <a className={styles.footer_upATagAt}>My Love-It List</a>
+              <span className={styles.footer_upATagAt}>My Love-It List</span>
             </p>
           </Link>
         </div>
@@ -143,44 +143,44 @@ const Footer = () => {
           <Link to={"/"}>
             {" "}
             <p style={{ marginTop: "3px" }}>
-              <a className={styles.footer_upATagAt}>About Us</a>
+              <span className={styles.footer_upATagAt}>About Us</span>
             </p>
           </Link>
           <Link to={"/"}>
             {" "}
             <p style={{ marginTop: "3px" }}>
-              <a className={styles.footer_upATagAt}>Careers</a>
+              <span className={styles.footer_upATagAt}>Careers</span>
             </p>
           </Link>
           <Link to={"/"}>
             <p style={{ marginTop: "3px" }}>
-              <a className={styles.footer_upATagAt}>Gift Cards</a>
-            </p>
-          </Link>
-          <Link to={"/"}>
-            {" "}
-            <p style={{ marginTop: "3px" }}>
-              <a className={styles.footer_upATagAt}>Shop by Fragrance</a>
+              <span className={styles.footer_upATagAt}>Gift Cards</span>
             </p>
           </Link>
           <Link to={"/"}>
             {" "}
             <p style={{ marginTop: "3px" }}>
-              <a className={styles.footer_upATagAt}>Product Ingredients</a>
+              <span className={styles.footer_upATagAt}>Shop by Fragrance</span>
             </p>
           </Link>
           <Link to={"/"}>
             {" "}
             <p style={{ marginTop: "3px" }}>
-              <a className={styles.footer_upATagAt}>Get Inspired</a>
+              <span className={styles.footer_upATagAt}>Product Ingredients</span>
             </p>
           </Link>
           <Link to={"/"}>
             {" "}
             <p style={{ marginTop: "3px" }}>
-              <a className={styles.footer_upATagAt}>
+              <span className={styles.footer_upATagAt}>Get Inspired</span>
+            </p>
+          </Link>
+          <Link to={"/"}>
+            {" "}
+            <p style={{ marginTop: "3px" }}>
+              <span className={styles.footer_upATagAt}>
                 Diversity, Equity & Inclusion
-              </a>
+              </span>
             </p>
           </Link>
         </div>
@@ -189,13 +189,13 @@ const Footer = () => {
           <Link to={"/"}>
             {" "}
             <p style={{ marginTop: "3px" }}>
-              <a className={styles.footer_upATagAt}>Store Locator</a>
+              <span className={styles.footer_upATagAt}>Store Locator</span>
             </p>
           </Link>
           <Link to={"/"}>
             {" "}
             <p style={{ marginTop: "3px" }}>
-              <a className={styles.footer_upATagAt}>Global Locations</a>
+              <span className={styles.footer_upATagAt}>Global Locations</span>
             </p>
           </Link>
         </div>
@@ -282,53 +282,53 @@ const Footer = () => {
         </div>
         <Link to={"/"}>
           {" "}
-          <a style={{ marginBottom: "35px" }}>
+          <p style={{ marginBottom: "35px" }}>
             <img
               src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw0c8e6af7/images/evergreen/Happiness_Guaranteedtimes2_v2.jpg?yocs=o_s_"
               alt=""
               style={{ width: "420px", height: "108px", paddingTop: "-100px" }}
             />
-          </a>
+          </p>
         </Link>
       </div>
       <div className={styles.footer_dnAt}>
         <div style={{ padding: "20px 0px 20px 0px" }}>
           <Link to={"/"}>
-            <a className={styles.underline_hoverAt}>Terms Of Use</a>
+            <p className={styles.underline_hoverAt}>Terms Of Use</p>
           </Link>
           <span>|</span>
           <Link to={"/"}>
             {" "}
-            <a className={styles.underline_hoverAt}>Privacy Policy</a>
+            <p className={styles.underline_hoverAt}>Privacy Policy</p>
           </Link>
           <span>|</span>
           <Link to={"/"}>
             {" "}
-            <a className={styles.underline_hoverAt}>Security Bug Report</a>
+            <p className={styles.underline_hoverAt}>Security Bug Report</p>
           </Link>
           <span>|</span>
           <Link to={"/"}>
-            <a className={styles.underline_hoverAt}>
+            <p className={styles.underline_hoverAt}>
               California Privacy Rights
-            </a>
+            </p>
           </Link>
           <span>|</span>
           <Link to={"/"}>
             {" "}
-            <a className={styles.underline_hoverAt}>
+            <p className={styles.underline_hoverAt}>
               Do Not Sell My Personal Information (California)
-            </a>
+            </p>
           </Link>
           <span>|</span>
           <Link to={"/"}>
-            <a className={styles.underline_hoverAt}>
+            <p className={styles.underline_hoverAt}>
               Transparency in Supply Chains
-            </a>
+            </p>
           </Link>
           <span>|</span>
           <Link to={"/"}>
             {" "}
-            <a className={styles.underline_hoverAt}>Ad Preferences</a>
+            <p className={styles.underline_hoverAt}>Ad Preferences</p>
           </Link>
         </div>
         <div style={{ marginTop: "-35px" }}>

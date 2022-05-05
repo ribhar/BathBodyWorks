@@ -49,7 +49,7 @@ const Contact = () => {
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
                   EMAIL
                 </h2>
-                <Link to={"#"} className="text-indigo-500 leading-relaxed">
+                <Link to={"/"} className="text-indigo-500 leading-relaxed">
                   bathandbodyworks@gmail.com
                 </Link>
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">

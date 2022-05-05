@@ -7,7 +7,7 @@ const PageNotFound = () => {
     <>
       <NavBar />
       <hr />
-      <img src={Error} alt="404-Error" className="m-auto" />
+      <img src={Error} alt="404-Error" className="m-auto h-[500px] mt-[20px]" />
     </>
   );
 };
