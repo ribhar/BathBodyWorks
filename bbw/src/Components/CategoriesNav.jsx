@@ -181,7 +181,7 @@ const navigation = {
       ],
     },
   ],
-  pages: [{ name: "TOP OFFERS", Link: "/topoffers" }],
+  pages: [{ name: "TOP OFFERS", Link: "/" }],
 };
 
 function classNames(...classes) {

@@ -63,42 +63,42 @@ export const ArShopByCat = [
     catImg:
       "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw8d1d6d80/images/Spring2022/fbc_butterfly_sp3_vn.jpg?yocs=o_s_",
     catTitle: "Shop Body Care",
-    link: "/",
+    link: "/body-care",
   },
   {
     id: "ar2",
     catImg:
       "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dwffda5c2c/images/Spring2022/cndl_mday-all_sp3_vn.jpg?yocs=o_s_",
     catTitle: "Shop Candles",
-    link: "/",
+    link: "/all-candles",
   },
   {
     id: "ar3",
     catImg:
       "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dwa9dab2b4/images/Spring2022/diff_mday_sp3_vn.jpg?yocs=o_s_",
     catTitle: "Shop Wallflowers",
-    link: "/",
+    link: "/all-wallflowers",
   },
   {
     id: "ar4",
     catImg:
       "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dwdfb0c185/images/Spring2022/sp_garden-infusion_sp3_vn.jpg?yocs=o_s_",
     catTitle: "Shop Hand Soaps",
-    link: "/",
+    link: "/all-hand-soaps",
   },
   {
     id: "ar5",
     catImg:
       "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw556bcddf/images/Spring2022/obc_atviznav_0_sp1_vn.jpg?yocs=o_s_",
     catTitle: "Shop Aromatherapy",
-    link: "/",
+    link: "/aromatherapy",
   },
   {
     id: "ar6",
     catImg:
       "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw0ce7d5cc/images/Spring2022/g_gift-sets_sp3_vn.jpg?yocs=o_s_",
     catTitle: "Shop Gift Sets",
-    link: "/",
+    link: "/gift-sets",
   },
 ];
 
