@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../Footer/Footer.module.css";
+import "../Footer/FooterH.css";
 
 const Footer = () => {
   return (
@@ -22,11 +23,46 @@ const Footer = () => {
               height: "35px",
               border: "1px solid rgb(92, 83, 83)",
               marginBottom: "15px",
-              outline: "none"
+              outline: "none",
             }}
           />
+          <div className="w-[30px] h-[30px] rounded-full absolute top-[4710px] right-[1136px] infoBox">
+            <i
+              className="bx bxs-info-circle cursor-pointer text-[#666666] hover:text-black"
+              style={{ fontSize: "30px" }}
+            ></i>
+            <div className="border border-black w-[250px] h-[250px] absolute top-[-260px] infoBoxHover p-4">
+              <div className="h-[fit-content] leading-8">
+                <h1 className="text-[.75rem] font-sans font-bold">
+                  BATH & BODY WORKS DIRECT, INC.
+                </h1>
+              </div>
+              <div className="h-[fit-content]">
+                <h3 className="text-[#666]">
+                  95 West Main Street,<br />
+                   New Albany, OH 43054
+                  <br />
+                  <span>1-800-756-5005</span>
+                </h3>
+              </div>
+              <div className="h-[fit-content] mt-3">
+                <h3 className="text-[#666]">
+                  You may withdraw your consent at anytime. View Privacy Policy.
+                </h3>
+              </div>
+              <div className="h-[fit-content] mt-2">
+                <p className="text-[#666] underline">Contact Us</p>
+              </div>
+            </div>
+          </div>
           <p style={{ paddingBottom: "-5px" }}>Confirm Email</p>
-          <input style={{ height: "35px", border: "1px solid black", outline: "none" }} />
+          <input
+            style={{
+              height: "35px",
+              border: "1px solid black",
+              outline: "none",
+            }}
+          />
           <button className={styles.btnAt}>SUBMIT</button>
           <h5 className={styles.h5TagAt} style={{ marginTop: "10px" }}>
             GET CONNECTED

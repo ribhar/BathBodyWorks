@@ -13,9 +13,8 @@ const Home = () => {
   return (
     <div>
       <NavBar />
-      <br />
       {/* section 1 */}
-      <section className="h-[fit-content] mt-0">
+      <section className="h-[fit-content] mt-[3px]">
         <div className="w-[1200px] m-auto h-[fit-content]">
           <img
             className="h-fit cursor-pointer"
@@ -228,7 +227,6 @@ const Home = () => {
       </section>
       {/* section 8 ends */}
       <br />
-      <br />
       {/* section 9 */}
       <section className="w-[1196px] h-[308px] m-auto">
         <div>
@@ -239,8 +237,28 @@ const Home = () => {
         </div>
       </section>
       {/* section 9 ends */}
-      {/* footer starts */}
       <br />
+      {/* section 10 */}
+      <section className="w-[1164px] m-auto">
+        <div className="p-[20px]">
+          <h1 className="text-[28px] text-[#333333] text-center">
+            Bath & Body Works
+          </h1>
+        </div>
+        <div className="w-[800px] h-[fit-content] m-auto">
+          <p className="text-center text-[16px] text-[#666666] leading-7">
+            Bath and Body Works is your go-to place for gifts & goodies that
+            surprise & delight. From fresh fragrances to soothing skin care, we
+            make finding your perfect something special a happy-memory-making
+            experience. Searching for new seasonal creations or your favorite
+            discontinued scents? We’ve got you covered there, too. Oh! And while
+            you're browsing, shop our latest & greatest selection of lotions,
+            soaps and candles!
+          </p>
+        </div>
+      </section>
+      {/* section 10 ends */}
+      {/* footer starts */}
       <Footer />
       {/* footer ends */}
     </div>

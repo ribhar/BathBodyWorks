@@ -23,7 +23,7 @@ const NavBar = () => {
 
       {/* Main Navbar Start */}
       <div
-        className="h-[170px]"
+        className="h-[fit-content]"
         style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
       >
         <div className="h-[80px] flex">
