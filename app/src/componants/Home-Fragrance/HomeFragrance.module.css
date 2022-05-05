@@ -4,9 +4,10 @@
   margin: auto;
   text-align: center;
   border: 2px solid black;
+  
   margin-top: 10px;
 }
 .catHoAt:hover {
   background-color: black;
-  color: rgb(201, 201, 5);
+  color: rgb(189, 179, 179);
 }
