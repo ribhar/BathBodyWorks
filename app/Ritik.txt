@@ -1,2 +1,6 @@
+installed react-router;
 installed react-router-dom;
+installed react-router-dom@6 
 installed styled-components;
+installed tailwind;
+installed react-toastify
