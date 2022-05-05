@@ -1,16 +1,14 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-// import "~slick-carousel/slick/slick.css";
-// import "~slick-carousel/slick/slick-theme.css";
 import "../Carousel/Slider.css";
-import { TodaysTopOfferSlider } from "../../API/TodaysTopOfferSlider";
+import { TodaysTopOfferSlider } from "../../API/LandingPageAPI";
 import { Link } from "react-router-dom";
 
 export default class MultipleItems extends Component {
   render() {
     const settings = {
       dots: false,
-      infinite: true,
+      infinite: false,
       speed: 500,
       slidesToShow: 3,
       slidesToScroll: 3,
@@ -34,13 +32,24 @@ export default class MultipleItems extends Component {
                     <p className="text-center">{offers.pName}</p>{" "}
                   </div>
                   <div className=" mt-2 h-[65px]">
-                  <h1 className="text-center text-black font-semibold text-2xl">{offers.discount}</h1>
+                    <h1 className="text-center text-black font-semibold text-2xl">
+                      {offers.discount}
+                    </h1>
                   </div>
                   <div className=" mt-2 h-[25px]">
-                  <p className="text-center text-black font-sans">{offers.limit}</p>
+                    <p className="text-center text-black font-sans">
+                      {offers.limit}
+                    </p>
                   </div>
                   <div className=" m-2 h-[50px]">
-                  <Link to={offers.link}><button className=" text-white bg-[#333333] w-full h-full text-2xl font-semibold hover:text-[#333333] hover:bg-[#e5e5e5]" style={{transition: ".4s ease-in"}}>SHOP</button></Link>
+                    <Link to={offers.link}>
+                      <button
+                        className=" text-white bg-[#333333] w-full h-full text-2xl font-semibold hover:text-[#333333] hover:bg-[#e5e5e5]"
+                        style={{ transition: ".4s ease-in" }}
+                      >
+                        SHOP
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>

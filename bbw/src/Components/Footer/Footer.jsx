@@ -22,10 +22,11 @@ const Footer = () => {
               height: "35px",
               border: "1px solid rgb(92, 83, 83)",
               marginBottom: "15px",
+              outline: "none"
             }}
           />
           <p style={{ paddingBottom: "-5px" }}>Confirm Email</p>
-          <input style={{ height: "35px", border: "1px solid black" }} />
+          <input style={{ height: "35px", border: "1px solid black", outline: "none" }} />
           <button className={styles.btnAt}>SUBMIT</button>
           <h5 className={styles.h5TagAt} style={{ marginTop: "10px" }}>
             GET CONNECTED

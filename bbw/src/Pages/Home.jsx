@@ -2,9 +2,12 @@ import React from "react";
 import NavBar from "../Components/NavBar";
 import "../CSS/WebScroll.css";
 import MultipleItems from "../Components/Carousel/TopSlider";
+import MultipleItemsTwo from "../Components/Carousel/TopSliderTwo";
 import { Link } from "react-router-dom";
 import Footer from "../Components/Footer/Footer";
-import "../CSS/LandingPageHoverImg.css"
+import "../CSS/LandingPageHoverImg.css";
+import fontimg from "../Images/fontimg.png";
+import { ArShopByCat, MoreGoodThings } from "../API/LandingPageAPI";
 
 const Home = () => {
   return (
@@ -15,7 +18,7 @@ const Home = () => {
       <section className="h-[fit-content] mt-0">
         <div className="w-[1200px] m-auto h-[fit-content]">
           <img
-            className="h-fit"
+            className="h-fit cursor-pointer"
             src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw4bac64f2/images/Spring2022/595blbc_sp3_hm_to.gif?yocs=s_"
             alt="banner1"
           />
@@ -77,6 +80,7 @@ const Home = () => {
       <section className="h-[fit-content] flex">
         <div className="h-[488.25px] w-[868px] ml-[200px] border-dotted border-2 border-gray-500">
           <img
+            className="cursor-pointer"
             src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw0f646ce5/images/Spring2022/oo-pwp-sp3-atb-lto.jpg?yocs=o_s_"
             alt="banner_2"
           />
@@ -88,7 +92,11 @@ const Home = () => {
               src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw5e7830a6/crop/025144398_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_"
               alt="productFront"
             />
-            <img className="cursor-pointer w-[144px] h-[195px]" src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw57c95821/hires/025144398_alt_1.jpg?sh=413&yocs=o_s_" alt="productBack" />
+            <img
+              className="cursor-pointer w-[144px] h-[195px]"
+              src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw57c95821/hires/025144398_alt_1.jpg?sh=413&yocs=o_s_"
+              alt="productBack"
+            />
           </div>
           <div className="m-auto w-[144px] h-fit">
             <h3
@@ -136,11 +144,105 @@ const Home = () => {
       </section>
       {/* section 4 ends */}
       <br />
+      <br />
       {/* section 5 */}
-      {/* <section className="border border-black"></section> */}
+      <section className="w-[1168px] h-[657px] m-auto border-dotted border-2 border-gray-500">
+        <img
+          className="w-[1168px] h-[657px] cursor-pointer"
+          src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw377d7fac/images/Spring2022/diff_mday_sp3_hm.jpg?yocs=s_"
+          alt="banner3"
+        />
+      </section>
       {/* section 5 end */}
       <br />
-      <Footer/>
+      <br />
+      {/* section 6 */}
+      <section className="w-[fit-content] m-auto h-[300px]">
+        <div className="p-[20px]">
+          <h1 className="text-center font-sans text-[#333333] font-bold text-[24px]">
+            SHOP BY CATEGORY
+          </h1>
+        </div>
+        <div className="h-[220px] flex items-center justify-center gap-[35px]">
+          {ArShopByCat.map((cat) => {
+            return (
+              <div key={cat.id}>
+                <div className="w-[168px] h-[200px]">
+                  <div className="h-[168px]">
+                    <img className="cursor-pointer" src={cat.catImg} alt="" />
+                  </div>
+                  <div className="h-[30px] p-1">
+                    <Link to={cat.link}>
+                      <h1 className="text-center font-sans font-semibold text-[14px] text-[#333333] underline">
+                        {cat.catTitle}
+                      </h1>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </section>
+      {/* section 6 ends */}
+      <br />
+      <br />
+      {/* section 7 */}
+      <section className="border-dotted border-2 border-gray-500 w-[1168px] h-[328.5px] m-auto">
+        <img
+          className="cursor-pointer"
+          src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw2106374d/images/Spring2022/xcat_give-love-mday_sp3_hb.jpg?yocs=s_"
+          alt="banner_4"
+        />
+      </section>
+      {/* section 7 ends */}
+      <br />
+      <br />
+      {/* section 8 */}
+      <section className="w-[1168px] h-[300px] m-auto">
+        <div className="p-[20px]">
+          <h1 className="text-center font-sans text-[#333333] font-bold text-[24px]">
+            MORE GOOD THINGS, THIS WAY
+          </h1>
+        </div>
+        <div className="h-[220px] flex items-center justify-center gap-[35px]">
+          {MoreGoodThings.map((moreGood) => {
+            return (
+              <div key={moreGood.id}>
+                <div className="w-[168px] h-[200px]">
+                  <div className="h-[165px]">
+                    <img className="cursor-pointer" src={moreGood.src} alt="" />
+                  </div>
+                  <div className="h-[35px]">
+                    <Link to={moreGood.link}>
+                      <h1 className="text-center font-sans font-semibold text-[14px] text-[#333333] underline">
+                        {moreGood.title}
+                      </h1>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </section>
+      {/* section 8 ends */}
+      <br />
+      <br />
+      {/* section 9 */}
+      <section className="w-[1196px] h-[308px] m-auto">
+        <div>
+          <img src={fontimg} alt="" />
+        </div>
+        <div className="h-[225px]">
+          <MultipleItemsTwo></MultipleItemsTwo>
+        </div>
+      </section>
+      {/* section 9 ends */}
+      {/* footer starts */}
+      <br />
+      <Footer />
+      {/* footer ends */}
     </div>
   );
 };

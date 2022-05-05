@@ -12,5 +12,7 @@
 10. npm install slick-carousel --save
 11. npm add slick-carousel
 12. npm i react-elastic-carousel
+13. npm i react-toastify
+14. npm i react-idle-timer
 
 --------------------------------------------------------------------

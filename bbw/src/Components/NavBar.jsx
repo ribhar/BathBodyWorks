@@ -3,11 +3,12 @@ import AnnounceBar from "./AnnounceBar";
 import PickUpImg from "../Images/PickUpImg.PNG";
 import Example from "./CategoriesNav";
 import { Link, useNavigate } from "react-router-dom";
+import "../CSS/divAcc.css";
 
 const NavBar = () => {
   const navigate = useNavigate();
   return (
-    <div id="arNavbar">
+    <div>
       {/* AnnounceBar */}
       <AnnounceBar />
 
@@ -57,13 +58,46 @@ const NavBar = () => {
                 alt=""
               />
             </div>
-            <div className="w-[50px] h-[45px] rounded-full">
+            <div className="w-[50px] h-[45px] rounded-full divAcc">
               <img
                 className="w-[50px] h-[45px] cursor-pointer"
+                id="accImg"
                 src="https://www.bathandbodyworks.com/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dwc847d762/images/svg-icons/UI-MyAccount.svg"
                 alt="account"
               />
+              <div className="divAccHover">
+                <Link to={"/account"}>
+                  <div className="h-[fit-content]  mt-2 w-fit">
+                    <h1 className="leading-8 px-2 text-[13px] text-[#666]">
+                      Sign In or Sign Up
+                    </h1>
+                  </div>
+                </Link>
+                <Link to={"/cart"}>
+                  <div className="h-[fit-content] w-fit">
+                    <h1 className="leading-8 px-2 text-[13px] text-[#666]">
+                      Order Tracking
+                    </h1>
+                  </div>
+                </Link>
+                <Link to={"/cart"}>
+                  <div className="h-[fit-content] w-fit">
+                    <h1 className="leading-8 px-2 text-[13px] text-[#666]">
+                      My Auto Refresh
+                    </h1>
+                  </div>
+                </Link>
+                <Link to={"/cart"}>
+                  {" "}
+                  <div className="h-[fit-content] w-fit">
+                    <h1 className="leading-8 px-2 text-[13px] text-[#666]">
+                      My Love-It List
+                    </h1>
+                  </div>
+                </Link>
+              </div>
             </div>
+              
             <div className="w-[50px] h-[45px] rounded-full">
               <Link to={"/cart"}>
                 <img
