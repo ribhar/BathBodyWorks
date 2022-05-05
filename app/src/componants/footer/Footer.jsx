@@ -10,8 +10,6 @@ const Footer = () => {
           <p
             style={{
               padding: "0px 20px 15px 0px",
-              // paddingTop: "5px",
-              // fontSize: "15px",
             }}
           >
             Get email offers & the latest news from Bath & Body Works!
@@ -196,7 +194,7 @@ const Footer = () => {
             style={{ backgroundColor: "blue" }}
           >
             <i
-              class="fa fa-facebook"
+              className="fa fa-facebook"
               aria-hidden="true"
               style={{
                 color: "white",
@@ -212,7 +210,7 @@ const Footer = () => {
             style={{ backgroundColor: "rgb(78, 146, 248)" }}
           >
             <i
-              class="fa fa-twitter"
+              className="fa fa-twitter"
               aria-hidden="true"
               style={{ color: "white", paddingTop: "8px", paddingLeft: "9px" }}
             ></i>
@@ -223,7 +221,7 @@ const Footer = () => {
             style={{ backgroundColor: "rgb(50, 88, 158)" }}
           >
             <i
-              class="fa fa-instagram"
+              className="fa fa-instagram"
               aria-hidden="true"
               style={{ color: "white", paddingTop: "8px", paddingLeft: "9px" }}
             ></i>
@@ -235,7 +233,7 @@ const Footer = () => {
             style={{ backgroundColor: "red" }}
           >
             <i
-              class="fa fa-youtube-square"
+              className="fa fa-youtube-square"
               aria-hidden="true"
               style={{ color: "white", paddingTop: "8px", paddingLeft: "9px" }}
             ></i>
@@ -246,7 +244,7 @@ const Footer = () => {
             style={{ backgroundColor: "red" }}
           >
             <i
-              class="fa fa-pinterest-p"
+              className="fa fa-pinterest-p"
               aria-hidden="true"
               style={{ color: "white", paddingTop: "8px", paddingLeft: "9px" }}
             ></i>

@@ -25,7 +25,7 @@ const HomeFragrance = () => {
           src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw63538dd8/images/Spring2022/xcat_homefrag_0_sp1_lb.jpg?yocs=s_"
           alt=""
         />
-        <p style={{ display: "flex", marginTop: "30px", gap: "3%" }}>
+        <div style={{ display: "flex", marginTop: "30px", gap: "3%" }}>
           <hr
             style={{
               width: "40%",
@@ -43,7 +43,7 @@ const HomeFragrance = () => {
               borderTop: "1px solid black",
             }}
           />
-        </p>
+        </div>
         <div style={{ display: "flex", gap: "20px" }}>
           <div>
             <img
