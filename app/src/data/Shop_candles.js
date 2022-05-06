@@ -142,5 +142,40 @@ export const shop_candle= [{
     "category1": "Single Wick Candle",
     "Amount": "1455",
     "Rating": "1"
+  },
+  {
+    "pImg": "https://www.justmylook.com/images/yankee-candle-floral-candy-large-jar-candle-p13501-22316_medium.jpg",
+    "category": "New Fragrance",
+    "id":"sh20",
+    "name": "Iced Lemon Pound Cake",
+    "category1": "3-Wick Candle",
+    "Amount": "2599",
+    "Rating": "53"
+  }, {
+    "pImg": "https://cdn.shopify.com/s/files/1/0555/2277/products/MiaraCandleS2_360x.jpg?v=1634124245",
+    "category": "New!",
+    "id":"sh21",
+    "name": "Raspberry Mimosa",
+    "category1": "Single Wick Candle",
+    "Amount": "2599",
+    "Rating": "5"
+  
+  },
+  {
+    "pImg": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw257db0ed/crop/026480789_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    "category": "Lavender Vanilla",
+    "id":"sh31",
+    "name": "Single Wick Candle",
+    "category1": "candle",
+    "Amount": "1999",
+    "Rating": "232"
+  },{
+    "pImg": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw018cbcb6/crop/026437372_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    "category": "New Fragrance",
+    "id":"sh32",
+    "name": "Pink Pineapple Sunrise",
+    "category1": "Single Wick Candle",
+    "Amount": "1499",
+    "Rating": "70"
   
   }]

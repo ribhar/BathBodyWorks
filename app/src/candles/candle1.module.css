@@ -20,7 +20,7 @@
     margin-top:50px;
       margin-left:5%;
       display: grid;
-      grid-template-columns: repeat(3,30%);
+      grid-template-columns: repeat(4,25%);
       gap:3%;
       justify-content: center;
 } img{

@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-// import Shop_body from "./Shopbody/Shop_body"
+import Shop_body from "./Shopbody/Shop_body"
 import { Can } from './candles/Can';
 import {Wall} from './wallflower/Wall'
 // import {Real} from './Real'
@@ -23,8 +23,8 @@ function App() {
         </a>
       </header> */}
       {/* <Shop_body/> */}
-      {/* <Can/> */}
-      <Wall/>
+      <Can/>
+      {/* <Wall/> */}
       {/* <Real/> */}
 
     </div>
