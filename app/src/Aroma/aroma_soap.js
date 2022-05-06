@@ -123,7 +123,7 @@ export const aroma_soap= [{
     "name": "Sandalwood Eucalyptus Mandarin",
     "category1": "Body Wash and Foam Bath",
     "Amount": "15.50",
-    "Rating": "5",
+    "Rating": "5", 
     "desc":"What it smells like: a fruity, spiced refresher. Fragrance notes: orange oil (invigorates and uplifts) and ginger oil (energizes your senses)."
 
   },{ "id" : "an16",
@@ -153,4 +153,4 @@ export const aroma_soap= [{
     "Rating": "3",
     "desc":"What it smells like: a day at the spa with your fresh, herbal favorites. Fragrance notes: eucalyptus oil (clears the mind) and spearmint oil (soothes and uplifts)."
   
-  }]
+  }];
