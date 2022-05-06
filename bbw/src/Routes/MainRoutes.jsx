@@ -7,7 +7,7 @@ import Description from "../Pages/Description";
 import AllHandSoaps from "../Pages/Ankur/Hand/Hand";
 import PageNotFound from "../Components/PageNotFound";
 
-const ArpitMainRoutes = () => {
+const MainRoutes = () => {
   return (
     <>
       <Routes>
@@ -24,4 +24,4 @@ const ArpitMainRoutes = () => {
   );
 };
 
-export default ArpitMainRoutes;
+export default MainRoutes;

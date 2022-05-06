@@ -1,10 +1,10 @@
-import ArpitMainRoutes from "./Routes/ArpitMainRoutes";
+import MainRoutes from "./Routes/MainRoutes";
 // import TestSlider from "./Test/TestSlider";
 
 function App() {
   return (
     <>
-      <ArpitMainRoutes />
+      <MainRoutes />
       {/* <TestSlider/> */}
     </>
   );
