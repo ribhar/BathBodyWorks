@@ -4,7 +4,7 @@ export const shop_hand_soap= [{
     "category": "New Fragrance",
     "name": "Kitchen Lemon",
     "category1": "Gentle & Clean Forming Hand Soap", 
-    "Amount": "$7.50",
+    "Amount": "7.50",
     "Rating": "4.5",
   }, { 
     "id" : "an2",
@@ -12,7 +12,7 @@ export const shop_hand_soap= [{
     "category": "New Fragrance",
     "name": "White Tea & Sage",
     "category1": "Gentle Gel Hand Soap",
-    "Amount": "$7.50",
+    "Amount": "7.50",
     "Rating": "3.5"
   }, { 
     "id" : "an3",
@@ -20,7 +20,7 @@ export const shop_hand_soap= [{
     "category": "New!",
     "name": "Watermelon Lemonade" ,
     "category1": "Gentle Gel Hand Soap",
-    "Amount": "$7.50",
+    "Amount": "7.50",
     "Rating": "5"
   }, { 
     "id" : "an4",
@@ -28,7 +28,7 @@ export const shop_hand_soap= [{
     "category": "New!",
     "name": " Turquoise Water",
     "category1": "Gentle Foaming Hand Soap",
-    "Amount": "$7.50",
+    "Amount": "7.50",
     "Rating": "4"
   }, { 
     "id" : "an5",
@@ -36,7 +36,7 @@ export const shop_hand_soap= [{
     "category": "New Fragrance",
     "name": "Waikiki Beach Coconut",
     "category1": "Gentle Gel Hand Soap",
-    "Amount": "$8.50",
+    "Amount": "8.50",
     "Rating": "5"
   }, { 
     "id" : "an6",
@@ -44,7 +44,7 @@ export const shop_hand_soap= [{
     "category": "New",
     "name": "Strawberry Pound Cake",
     "category1": "Gentle Foaming Hand Soap",
-    "Amount": "$7.50",
+    "Amount": "7.50",
     "Rating": "5"
   }, { 
     "id" : "an7",
@@ -52,7 +52,7 @@ export const shop_hand_soap= [{
     "category": "New Fragrance",
     "name": "Iced Dragonfruit Tea",
     "category1": "Gentle Foaming Hand Soap",
-    "Amount": "$8.50",
+    "Amount": "8.50",
     "Rating": "3"
   }, { 
     "id" : "an7",
@@ -60,7 +60,7 @@ export const shop_hand_soap= [{
     "category": "New!",
     "name": "Boardwalk Vanilla Cone",
     "category1": "Gentle Foaming Hand Soap",
-    "Amount": "$7.50",
+    "Amount": "7.50",
     "Rating": "5"
   },{ 
     "id" : "an8",
@@ -68,7 +68,7 @@ export const shop_hand_soap= [{
     "category": "New!",
     "name": "Berry Waffle Cone",
     "category1": "Gentle Foaming Hand Soap",
-    "Amount": "$7.50",
+    "Amount": "7.50",
     "Rating": "3"
   },{ 
     "id" : "an9",
@@ -76,7 +76,7 @@ export const shop_hand_soap= [{
     "category": "New!",
     "name": "Sunshine & Lemons",
     "category1": "Gentle Foaming Hand Soap",
-    "Amount": "$7.50",
+    "Amount": "7.50",
     "Rating": "4.5"
   },{ 
     "id" : "an10",
@@ -84,7 +84,7 @@ export const shop_hand_soap= [{
     "category": "New!",
     "name": "Sun-Washed Citrus",
     "category1": "Gentle Foaming Hand Soap",
-    "Amount": "$7.50",
+    "Amount": "7.50",
     "Rating": "3"
   },{ 
     "id" : "an11",
@@ -92,7 +92,7 @@ export const shop_hand_soap= [{
     "category": "New!",
     "name": "Sunny Squeeze",
     "category1": "Gentle Foaming Hand Soap",
-    "Amount": "$7.50",
+    "Amount": "7.50",
     "Rating": "5"
   },{ 
     "id" : "an12",
@@ -100,7 +100,7 @@ export const shop_hand_soap= [{
     "category": "New Fragrance",
     "name": "Kitchen Lemon",
     "category1": "Gentle Foaming Hand Soap",
-    "Amount": "$8.50",
+    "Amount": "8.50",
     "Rating": "3.5"
   },{ 
     "id" : "an13",
@@ -108,7 +108,7 @@ export const shop_hand_soap= [{
     "category": "New!",
     "name": "Sea Salt & Lime",
     "category1": "Gentle Gel Hand Soap",
-    "Amount": "$7.50",
+    "Amount": "7.50",
     "Rating": "4"
   },{ 
     "id" : "an14",
@@ -116,7 +116,7 @@ export const shop_hand_soap= [{
     "category": "New!",
     "name": "Oceanfront Garden",
     "category1": "Gentle Foaming Hand Soap",
-    "Amount": "$7.50",
+    "Amount": "7.50",
     "Rating": "5"
   },{ 
     "id" : "an15",
@@ -124,7 +124,7 @@ export const shop_hand_soap= [{
     "category": "New!",
     "name": "Endless Weekend",
     "category1": "Gentle Foaming Hand Soap",
-    "Amount": "$7.50",
+    "Amount": "7.50",
     "Rating": "5"
   },{ 
     "id" : "an16",
@@ -132,7 +132,7 @@ export const shop_hand_soap= [{
     "category": "New!",
     "name": "Island Punch",
     "category1": "Gentle Foaming Hand Soap",
-    "Amount": "$7.50",
+    "Amount": "7.50",
     "Rating": "3"
   },{ 
     "id" : "an17",
@@ -140,7 +140,7 @@ export const shop_hand_soap= [{
     "category": "New!",
     "name": "Lakeside Afternoon",
     "category1": "Gentle Gel Hand Soap",
-    "Amount": "$7.50",
+    "Amount": "7.50",
     "Rating": "3"
   
   }]
