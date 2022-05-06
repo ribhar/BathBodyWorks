@@ -146,4 +146,55 @@ export const shop_wallflower= [{
     "category1": "Wallflowers Fragrance Refill",
     "Amount": "750",
     "Rating": "5"
+  },
+  {
+    "pImg": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw911c291a/crop/026273224_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    "name": "Fresh Sheets",
+    "id":"shivani36",
+    "category1": "Wallflowers Fragrance Refill",
+    "Amount": "800",
+    "Rating": "2"
+  
+  }, {
+    "pImg": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwdd602de9/crop/026194284_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    "name": "Hibiscus Mandrine Violet",
+    "id":"shivani37",
+    "category1": "Wallflowers Fragrance Refill",
+    "Amount": "1750",
+    "Rating": "4"
+    
+  },
+  {
+    "pImg": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw911c291a/crop/026273224_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    "name": "Fresh Sheets",
+    "id":"shivani36",
+    "category1": "Wallflowers Fragrance Refill",
+    "Amount": "800",
+    "Rating": "2"
+  
+  }, {
+    "pImg": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwdd602de9/crop/026194284_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    "name": "Hibiscus Mandrine Violet",
+    "id":"shivani37",
+    "category1": "Wallflowers Fragrance Refill",
+    "Amount": "1750",
+    "Rating": "4"
+    
+  },
+  {
+    "pImg": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw412c476c/crop/026399185_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    "name": "Fiji White Sands Enhanced",
+    "id":"shivani31",
+    "category1": "Wallflowers Fragrance Refil",
+    "Amount": "699",
+    "Rating": "5"
+    
+  }, {
+    "pImg": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf1c3d3c5/crop/026397334_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    "name": "Cinnamon Spiced Vanilla E" ,
+    "id":"shivani32",
+    "category1": "Wallflowers Fragrance Refill",
+    "Amount": "799",
+    "Rating": "3"
+  
   }]

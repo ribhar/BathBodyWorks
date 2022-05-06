@@ -21,7 +21,6 @@ export const Can = () => {
                {shop_candle.map((ele)=>{
                      return(
                         <div key={ele.id}>  
-                          {/* <Pagination count={10} />                          */}
                                     <img style={{height:"300px"}} src={ele.pImg}/>
                                      <div className={styles.shiv11}>
                                      <b>{ele.category}</b>

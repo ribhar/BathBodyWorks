@@ -6,6 +6,7 @@ export const Wall = () => {
   return (
     <>
     <div className={styles.shivani20}>
+       <div> <img style={{height:"300px" , width:"100%"}} src='https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dwc6f06e7d/images/Spring2021/diff_olfactive-plugs_SP1_0_gh_ref.jpg?yocs=s_'></img></div>
        <h1 style={{fontSize:"30px", fontWeight:"bold",marginLeft:"10%"}}>WALLFLOWERS REFILLS</h1>
        <div  className={styles.shivani21}>
            <div>Sort by</div>
@@ -18,7 +19,7 @@ export const Wall = () => {
                {shop_wallflower.map((ele)=>{
                      return(
                         <div key={ele.id}>                           
-                                    <img style={{height:"300px"}} src={ele.pImg}/>
+                                    <img style={{height:"220px"}} src={ele.pImg}/>
                                      <div className={styles.shiv11}>
                                      <b>{ele.category}</b>
                                      <h1>{ele.name}</h1>
