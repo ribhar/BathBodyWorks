@@ -174,4 +174,21 @@ export const LastLandingPageSlider = [
     id: "ar8",
     src: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjUxMzI3MjYwLjExNzI1MDQzNTExMC5qcGVn.jpg?w=640&h=640&fit=cover"
   },
+  {
+    id: "ar9",
+    src: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjUxNzc3MjI4LjE3MzU2MTg1MDk2LmpwZWc=.jpg?w=640&h=640&fit=cover"
+  },
+  {
+    id: "ar10",
+    src: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjUxNjc1ODQyLjYzMTA5MjM1ODQ3OC5qcGVn.jpg?w=640&h=640&fit=cover"
+  },
+  {
+    id: "ar11",
+    src: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjUxNzU5MjkzLjczNTgyNjUyNzEwNi5qcGVn.jpg?w=640&h=640&fit=cover"
+  },
+  {
+    id: "ar12",
+    src: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjUxNzA0MjIxLjg3MzY0Mzk5MDkwMC5qcGVn.jpg?w=640&h=640&fit=cover"
+  }
+
 ]

@@ -1,7 +1,7 @@
 .divAcc > .divAccHover {
   border: 0.5px solid black;
   background: white;
-  height: 150px;
+  height: fit-content;
   width: 210px;
   position: absolute;
   top: 145px;

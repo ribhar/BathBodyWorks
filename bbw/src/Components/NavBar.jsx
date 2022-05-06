@@ -1,12 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import AnnounceBar from "./AnnounceBar";
 import PickUpImg from "../Images/PickUpImg.PNG";
 import Example from "./CategoriesNav";
 import { Link, useNavigate } from "react-router-dom";
 import "../CSS/divAcc.css";
+import "../CSS/LandingRes.css";
 
 const NavBar = () => {
   const navigate = useNavigate();
+  let UserInfo = JSON.parse(localStorage.getItem("userData")) || [];
+  let [userName] = useState(UserInfo.fName);
+  const handleLogout = () => {
+    localStorage.removeItem("userData");
+    navigate("/account");
+  };
+  const Cart = JSON.parse(localStorage.getItem("cartProducts")) || [];
+  const [cart] = useState(Cart.length);
   return (
     <div>
       {/* AnnounceBar */}
@@ -14,6 +23,7 @@ const NavBar = () => {
 
       {/* pickUp  Start*/}
       <div
+        id="pickupBanner"
         className="h-[40px] flex flex-1 justify-end"
         style={{ backgroundColor: "whitesmoke" }}
       >
@@ -38,17 +48,18 @@ const NavBar = () => {
           </div>
           <div className="w-[600px] flex items-center">
             <div
+              id="searchBar"
               className="border border-black h-[35px] w-[250px] ml-3"
               style={{ borderRight: "none" }}
             >
               <input
-                onClick={() => navigate("/search")}
                 className=" p-1 w-full text-black rounded-[2px] outline-none"
                 type="text"
                 placeholder="Search by fragrance or product..."
               />
             </div>
             <div
+              id="searchIcon"
               className="w-[50px] h-[35px] border border-black rounded-[2px] outline-none"
               style={{ borderLeft: "none" }}
             >
@@ -69,7 +80,7 @@ const NavBar = () => {
                 <Link to={"/account"}>
                   <div className="h-[fit-content]  mt-2 w-fit">
                     <h1 className="leading-8 px-2 text-[13px] text-[#666]">
-                      Sign In or Sign Up
+                      {userName ? userName : "Sign In or Sign Up"}
                     </h1>
                   </div>
                 </Link>
@@ -95,9 +106,17 @@ const NavBar = () => {
                     </h1>
                   </div>
                 </Link>
+                <div className="h-[fit-content] w-fit">
+                  <h1
+                    onClick={handleLogout}
+                    className="leading-8 px-2 text-[13px] text-[#666] cursor-pointer"
+                  >
+                    {userName ? "Logout" : ""}
+                  </h1>
+                </div>
               </div>
             </div>
-              
+
             <div className="w-[50px] h-[45px] rounded-full">
               <Link to={"/cart"}>
                 <img
@@ -105,6 +124,13 @@ const NavBar = () => {
                   src="https://www.bathandbodyworks.com/on/demandware.static/Sites-BathAndBodyWorks-Site/-/en_US/v1615459561027/images/svg-icons/UI-AddToBag.svg"
                   alt="cartlogo"
                 />
+
+                <span
+                  id="arCounter"
+                  className="w-fit h-fit text-[16px] absolute top-[110px] right-[80px] text-[#3075ac]"
+                >
+                  {cart}
+                </span>
               </Link>
             </div>
           </div>

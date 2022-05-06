@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import NavBar from "../Components/NavBar";
 import "../CSS/WebScroll.css";
 import MultipleItems from "../Components/Carousel/TopSlider";

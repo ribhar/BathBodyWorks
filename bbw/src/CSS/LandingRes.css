@@ -1,0 +1,18 @@
+@media screen and (max-width: 640px){
+   .announceBar{
+       display: none;
+   }
+   #pickupBanner{
+       width: 110vh;
+       background-color: white;
+   }
+   #searchBar{
+       display: none;
+   }
+   #searchIcon{
+       display: none;
+   }
+   #arCounter{
+       display: none;
+   }
+}

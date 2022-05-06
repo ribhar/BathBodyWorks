@@ -3,6 +3,7 @@ import NavBar from "../Components/NavBar";
 import { Link } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Footer2 from "../Components/Footer/Footer2";
 
 const Contact = () => {
   const notify = () =>
@@ -124,6 +125,7 @@ const Contact = () => {
         </div>
       </section>
       <ToastContainer />
+      <Footer2/>
     </>
   );
 };
