@@ -6,6 +6,8 @@ export const shop_hand_soap= [{
     "category1": "Gentle & Clean Forming Hand Soap", 
     "Amount": "7.50",
     "Rating": "4.5",
+    "desc":"",
+    "desc":"What it smells like: that fruity red, white and blue popsicle you loved as a kid. Fragrance notes: red cherry, fresh citrus and juicy berry.",
   }, { 
     "id" : "an2",
     "pImg": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwe54dee11/crop/026460679_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
@@ -13,7 +15,8 @@ export const shop_hand_soap= [{
     "name": "White Tea & Sage",
     "category1": "Gentle Gel Hand Soap",
     "Amount": "7.50",
-    "Rating": "3.5"
+    "Rating": "3.5",
+    "desc":"What it smells like: a floral bouquet on a sweet spring day. Fragrance notes: wild daisies, pink peonies and sun-kissed apples.",
   }, { 
     "id" : "an3",
     "pImg": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwc1671a68/crop/026474053_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
@@ -21,7 +24,8 @@ export const shop_hand_soap= [{
     "name": "Watermelon Lemonade" ,
     "category1": "Gentle Gel Hand Soap",
     "Amount": "7.50",
-    "Rating": "5"
+    "Rating": "5",
+    "desc":"What it smells like: the perfect island cocktail garnish. Fragrance notes: chilled lime, fresh eucalyptus and sea salt.",
   }, { 
     "id" : "an4",
     "pImg": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwa18f08e2/crop/026490033_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
@@ -29,7 +33,8 @@ export const shop_hand_soap= [{
     "name": " Turquoise Water",
     "category1": "Gentle Foaming Hand Soap",
     "Amount": "7.50",
-    "Rating": "4"
+    "Rating": "4",
+    "desc":"What it smells like: a sweet, rich carnival treat. Fragrance notes: marshmallow fluff, vanilla bean and creamy caramel.",
   }, { 
     "id" : "an5",
     "pImg": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwb5dd2898/crop/026426961_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
@@ -37,7 +42,8 @@ export const shop_hand_soap= [{
     "name": "Waikiki Beach Coconut",
     "category1": "Gentle Gel Hand Soap",
     "Amount": "8.50",
-    "Rating": "5"
+    "Rating": "5",
+    "desc":"What it smells like: a sweet, tangy refresher. Fragrance notes: watermelon ice, sparkling water and Meyer lemon.",
   }, { 
     "id" : "an6",
     "pImg": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwe8ae5215/crop/026438945_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
@@ -45,7 +51,8 @@ export const shop_hand_soap= [{
     "name": "Strawberry Pound Cake",
     "category1": "Gentle Foaming Hand Soap",
     "Amount": "7.50",
-    "Rating": "5"
+    "Rating": "5",
+    "desc":"What it smells like: a fruity, creamy smoothie from paradise. Fragrance notes: juicy pineapple, sugarcane and coconut milk.",
   }, { 
     "id" : "an7",
     "pImg": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf6ceee82/crop/026460823_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
@@ -53,7 +60,8 @@ export const shop_hand_soap= [{
     "name": "Iced Dragonfruit Tea",
     "category1": "Gentle Foaming Hand Soap",
     "Amount": "8.50",
-    "Rating": "3"
+    "Rating": "3",
+    "desc":"What it smells like: that fruity red, white and blue popsicle you loved as a kid. Fragrance notes: red cherry, fresh citrus and juicy berry.",
   }, { 
     "id" : "an7",
     "pImg": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw6d1ecec6/crop/026490031_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
@@ -61,7 +69,8 @@ export const shop_hand_soap= [{
     "name": "Boardwalk Vanilla Cone",
     "category1": "Gentle Foaming Hand Soap",
     "Amount": "7.50",
-    "Rating": "5"
+    "Rating": "5",
+    "desc":"What it smells like: a fruity, creamy smoothie from paradise. Fragrance notes: juicy pineapple, sugarcane and coconut milk.",
   },{ 
     "id" : "an8",
     "pImg": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw2f53c870/crop/026487385_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
@@ -69,7 +78,8 @@ export const shop_hand_soap= [{
     "name": "Berry Waffle Cone",
     "category1": "Gentle Foaming Hand Soap",
     "Amount": "7.50",
-    "Rating": "3"
+    "Rating": "3",
+    "desc":"What it smells like: a sweet, tangy refresher. Fragrance notes: watermelon ice, sparkling water and Meyer lemon.",
   },{ 
     "id" : "an9",
     "pImg": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw6d5e64ca/crop/026490034_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
@@ -77,7 +87,8 @@ export const shop_hand_soap= [{
     "name": "Sunshine & Lemons",
     "category1": "Gentle Foaming Hand Soap",
     "Amount": "7.50",
-    "Rating": "4.5"
+    "Rating": "4.5",
+    "desc":"What it smells like: the perfect island cocktail garnish. Fragrance notes: chilled lime, fresh eucalyptus and sea salt.",
   },{ 
     "id" : "an10",
     "pImg": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwfb22f0dc/crop/026487392_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
@@ -85,7 +96,8 @@ export const shop_hand_soap= [{
     "name": "Sun-Washed Citrus",
     "category1": "Gentle Foaming Hand Soap",
     "Amount": "7.50",
-    "Rating": "3"
+    "Rating": "3",
+    "desc":"What it smells like: the perfect island cocktail garnish. Fragrance notes: chilled lime, fresh eucalyptus and sea salt.",
   },{ 
     "id" : "an11",
     "pImg": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw0fdde25d/crop/026495972_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
@@ -93,7 +105,8 @@ export const shop_hand_soap= [{
     "name": "Sunny Squeeze",
     "category1": "Gentle Foaming Hand Soap",
     "Amount": "7.50",
-    "Rating": "5"
+    "Rating": "5",
+    "desc":"What it smells like: a fruity, creamy smoothie from paradise. Fragrance notes: juicy pineapple, sugarcane and coconut milk.",
   },{ 
     "id" : "an12",
     "pImg": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf03cd9f4/crop/026460821_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
@@ -101,7 +114,8 @@ export const shop_hand_soap= [{
     "name": "Kitchen Lemon",
     "category1": "Gentle Foaming Hand Soap",
     "Amount": "8.50",
-    "Rating": "3.5"
+    "Rating": "3.5",
+    "desc":"What it smells like: that fruity red, white and blue popsicle you loved as a kid. Fragrance notes: red cherry, fresh citrus and juicy berry.",
   },{ 
     "id" : "an13",
     "pImg": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw632f0f2e/crop/026470439_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
@@ -109,7 +123,8 @@ export const shop_hand_soap= [{
     "name": "Sea Salt & Lime",
     "category1": "Gentle Gel Hand Soap",
     "Amount": "7.50",
-    "Rating": "4"
+    "Rating": "4",
+    "desc":"What it smells like: that fruity red, white and blue popsicle you loved as a kid. Fragrance notes: red cherry, fresh citrus and juicy berry.",
   },{ 
     "id" : "an14",
     "pImg": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf0f64f42/crop/026490035_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
@@ -117,7 +132,8 @@ export const shop_hand_soap= [{
     "name": "Oceanfront Garden",
     "category1": "Gentle Foaming Hand Soap",
     "Amount": "7.50",
-    "Rating": "5"
+    "Rating": "5",
+    "desc":"What it smells like: a fruity, creamy smoothie from paradise. Fragrance notes: juicy pineapple, sugarcane and coconut milk.",
   },{ 
     "id" : "an15",
     "pImg": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwff43fe31/crop/026487391_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
@@ -125,15 +141,17 @@ export const shop_hand_soap= [{
     "name": "Endless Weekend",
     "category1": "Gentle Foaming Hand Soap",
     "Amount": "7.50",
-    "Rating": "5"
-  },{ 
+    "Rating": "5",
+    "desc":"What it smells like: that fruity red, white and blue popsicle you loved as a kid. Fragrance notes: red cherry, fresh citrus and juicy berry.",
+},{ 
     "id" : "an16",
     "pImg": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw04740286/crop/026487386_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
     "category": "New!",
     "name": "Island Punch",
     "category1": "Gentle Foaming Hand Soap",
     "Amount": "7.50",
-    "Rating": "3"
+    "Rating": "3",
+    "desc":"What it smells like: a fruity, creamy smoothie from paradise. Fragrance notes: juicy pineapple, sugarcane and coconut milk.",
   },{ 
     "id" : "an17",
     "pImg": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwd9b51dce/crop/026474055_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
@@ -141,6 +159,6 @@ export const shop_hand_soap= [{
     "name": "Lakeside Afternoon",
     "category1": "Gentle Gel Hand Soap",
     "Amount": "7.50",
-    "Rating": "3"
-  
-  }]
+    "Rating": "3",  
+    "desc":"What it smells like: that fruity red, white and blue popsicle you loved as a kid. Fragrance notes: red cherry, fresh citrus and juicy berry.",
+}]
