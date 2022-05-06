@@ -2,25 +2,28 @@ import React from "react";
 import styles from "./ProAt.module.css";
 
 const ProItemAt = (props) => {
-  const { id, pName, pImg, pCat, Amount, Rating } = props;
+  const { id, name, pImg, category,category1, Amount, Rating, height, width } = props;
   return (
-    <div>
-      <div style={{ textAlign: "center"}}>
+    <div key={id}>
+      <div style={{ textAlign: "center" }}>
         <img
-          style={{ height: "350px", width: "240px", margin: "auto" }}
+          style={{ height: `${height}px`, width: `${width}px`, margin: "auto" }}
           src={pImg}
-          alt={pName}
+          alt={name}
         />
+        <h3 style={{ fontSize: "16px", fontWeight: "bold", color: "rgb(42, 196, 243)", marginBottom:"-15px" }}>
+          {category}
+        </h3>
         <h4 style={{ fontSize: "16px", fontWeight: "bold", marginTop: "10px" }}>
-          {pName}
+          {name}
         </h4>
-        <p>{pCat}</p>
+        <p>{category1}</p>
         <h3 style={{ fontSize: "16px", fontWeight: "bold", color: "red" }}>
           ${Amount}
         </h3>
         <p>⭐⭐⭐⭐({Rating})</p>
       </div>
-      <button className={styles.addToBAt}>ADD TO BAG</button>
+      <button className={styles.addToBAt}>VIEW</button>
     </div>
   );
 };

@@ -12,10 +12,28 @@ const CarFragAt = () => {
         margin: "20px",
       }}
     >
-      <div
-        className="grid"
-        style={{ marginTop: "100px", height: "1700px" }}
-      ></div>
+      <div className="grid" style={{ marginTop: "100px", height: "1700px" }}>
+        <img
+          src="https://media0.giphy.com/media/fvqVax5PXIPm4i45Zw/giphy.gif"
+          alt=""
+        />
+        <img
+          src="https://media0.giphy.com/media/NzHJxQSgLPZZYIhQkk/giphy.gif"
+          alt=""
+        />
+        <img
+          src="https://media0.giphy.com/avatars/TeamChemicalGuys/sTDn4pmEJOHY.gif"
+          alt=""
+        />
+        <img
+          src="https://media0.giphy.com/media/fvqVax5PXIPm4i45Zw/giphy.gif"
+          alt=""
+        />
+        <img
+          src="https://media0.giphy.com/media/NzHJxQSgLPZZYIhQkk/giphy.gif"
+          alt=""
+        />
+      </div>
       <div>
         <div
           className="flex justify-between"
@@ -28,30 +46,45 @@ const CarFragAt = () => {
               marginBottom: "-10px",
             }}
           >
-            3/$22 Room Sprays
+            3/$10 Car Fragrance Refills
           </p>
-          <select
-            name=""
-            id="sortAtanu"
+          <p
             style={{
               width: "150px",
-              fontWeight: "bold",
-              borderBottom: "2px solid black",
+              fontWeight: "400",
             }}
           >
-            <option value="">Sort By</option>
-            <option value="l2h">Price low to high</option>
-            <option value="h2l">Price high to low</option>
-          </select>
+            <span>Total Items:</span>
+            <span
+              style={{ fontSize: "20px", fontWeight: "bold", margin: "10px" }}
+            >
+              {carFragrance.length}
+            </span>
+          </p>
         </div>
-
         <hr
           style={{
             width: "100%",
-            margin: "15px 0px 50px 0px",
+            margin: "15px 0px 0px 0px",
             borderTop: "1px solid rgb(172, 172, 172)",
           }}
         />
+        <select
+          name=""
+          id="sortAtanu"
+          style={{
+            width: "150px",
+            fontWeight: "bold",
+            outline: "none",
+            margin: "30px",
+            marginLeft: "82%",
+            borderBottom: "2px solid black",
+          }}
+        >
+          <option value="">Sort By</option>
+          <option value="l2h">Price low to high</option>
+          <option value="h2l">Price high to low</option>
+        </select>
 
         <div>
           <AllProAt data={carFragrance} />

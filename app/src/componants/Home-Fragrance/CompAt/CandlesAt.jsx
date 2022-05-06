@@ -13,19 +13,21 @@ const CandlesAt = () => {
     >
       <div className="grid" style={{ marginTop: "100px", height: "1500px" }}>
         <img
-          src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw10dc070e/images/Fall2021/cndl_worlds-best_fa1_0_gpt.gif?yocs=s_"
+          src="https://media0.giphy.com/media/fvqVax5PXIPm4i45Zw/giphy.gif"
           alt=""
         />
         <img
           src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw10dc070e/images/Fall2021/cndl_worlds-best_fa1_0_gpt.gif?yocs=s_"
           alt=""
         />
+
         <img
-          src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw10dc070e/images/Fall2021/cndl_worlds-best_fa1_0_gpt.gif?yocs=s_"
+          src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/bath-and-body-works-square-1566838843.gif"
           alt=""
         />
         <img
-          src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw10dc070e/images/Fall2021/cndl_worlds-best_fa1_0_gpt.gif?yocs=s_"
+          style={{ height: "250px", width: "220px" }}
+          src="https://c.tenor.com/7gcvr45QNNcAAAAC/bath-and-body-works-candles.gif"
           alt=""
         />
       </div>
@@ -34,28 +36,52 @@ const CandlesAt = () => {
           className="flex justify-between"
           style={{ margin: "5px 40px 10px 5px" }}
         >
-          <p style={{ fontSize: "30px", fontWeight: "200",marginBottom:"-10px" }}>All Candles</p>
-          <select
-            name=""
-            id="sortAtanu"
+          <p
             style={{
-              width: "150px",
-              fontWeight: "bold",
-              borderBottom: "2px solid black",
+              fontSize: "30px",
+              fontWeight: "200",
+              marginBottom: "-10px",
             }}
           >
-            <option value="">Sort By</option>
-            <option value="l2h">Price low to high</option>
-            <option value="h2l">Price high to low</option>
-          </select>
+            All Candles
+          </p>
+          <p
+            style={{
+              width: "150px",
+              fontWeight: "400",
+            }}
+          >
+            <span>Total Items:</span>
+            <span
+              style={{ fontSize: "20px", fontWeight: "bold", margin: "10px" }}
+            >
+              {allCandles.length}
+            </span>
+          </p>
         </div>
         <hr
           style={{
             width: "100%",
-            margin: "15px 0px 50px 0px",
+            margin: "15px 0px 0px 0px",
             borderTop: "1px solid rgb(172, 172, 172)",
           }}
         />
+        <select
+          name=""
+          id="sortAtanu"
+          style={{
+            width: "150px",
+            fontWeight: "bold",
+            outline: "none",
+            margin: "30px",
+            marginLeft: "82%",
+            borderBottom: "2px solid black",
+          }}
+        >
+          <option value="">Sort By</option>
+          <option value="l2h">Price low to high</option>
+          <option value="h2l">Price high to low</option>
+        </select>
         <div>
           <AllProAt data={allCandles} />
         </div>

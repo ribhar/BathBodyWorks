@@ -6,16 +6,29 @@ import WallFlowersAt from "./componants/Home-Fragrance/CompAt/WallFlowersAt";
 import RoomSpraysAt from "./componants/Home-Fragrance/CompAt/RoomSpraysAt";
 import CarFragAt from "./componants/Home-Fragrance/CompAt/CarFragAt";
 
+import {Routes, Route} from "react-router-dom"
+
+import NAV from "./componants/xyz/NAV";
+import Home from "./componants/xyz/Page/Home";
+import About from "./componants/xyz/Page/About";
+import NewHoFragAt from "./componants/Home-Fragrance/CompAt/NewHoFragAt";
+
 function App() {
   return (
     <div className="App">
-      <HomeFragrance />
-      =====================================
-      <CandlesAt />
-      <WallFlowersAt/>
-      <RoomSpraysAt/>
-      <CarFragAt/>
-      =====================================
+      
+      <NAV/>
+      <Routes>
+      <Route path="/" element={<Home />}/>
+      <Route path="/about" element={<About />}/>
+        <Route path="/fragrance" element={<HomeFragrance />}/>
+        <Route path="/candlesAt" element={<CandlesAt />}/>
+        <Route path="/wallFlowersAt" element={<WallFlowersAt/>}/>
+        <Route path="/roomSpraysAt" element={<RoomSpraysAt/>}/>
+        <Route path="/carFragAt" element={<CarFragAt/>}/>
+        <Route path="/newHoFragAt" element={<NewHoFragAt/>}/>
+      </Routes>
+    
       <Footer />
     </div>
   );
