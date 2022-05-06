@@ -7,13 +7,13 @@ import "react-toastify/dist/ReactToastify.css";
 const Description = () => {
   const notify = () =>
     toast.success("Added to Cart", {
-        position: "top-center",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
     });
   const notify2 = () =>
     toast.warning("Already Present in Cart", {
@@ -169,7 +169,7 @@ const Description = () => {
                 </span>
                 <button
                   onClick={() => addToCart(descData)}
-                  className="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded"
+                  className="flex ml-auto text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-[#e5e5e5] hover:text-black rounded"
                 >
                   ADD TO CART
                 </button>
