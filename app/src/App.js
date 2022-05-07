@@ -12,6 +12,7 @@ import NAV from "./componants/xyz/NAV";
 import Home from "./componants/xyz/Page/Home";
 import About from "./componants/xyz/Page/About";
 import NewHoFragAt from "./componants/Home-Fragrance/CompAt/NewHoFragAt";
+import F_Q from "./componants/About&F&Q/F_Q";
 
 function App() {
   return (
@@ -28,6 +29,8 @@ function App() {
         <Route path="/carFragAt" element={<CarFragAt/>}/>
         <Route path="/newHoFragAt" element={<NewHoFragAt/>}/>
       </Routes>
+
+      <F_Q/>
     
       <Footer />
     </div>
