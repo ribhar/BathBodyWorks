@@ -34,6 +34,7 @@ const Description = () => {
       }
     }
     if (flag == false) {
+      e.quantity = 1;
       cartItems.push(e);
       localStorage.setItem("cartProducts", JSON.stringify(cartItems));
       //   alert("item Addes")
@@ -51,7 +52,7 @@ const Description = () => {
           <div className="lg:w-4/5 mx-[400px] flex flex-wrap">
             <img
               alt="ecommerce"
-              className="w-[150px] lg:h-auto h-[150px] object-cover object-center rounded"
+              className="w-[300px] lg:h-auto h-[150px] object-cover object-center rounded"
               src={descData.pImg}
             />
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">

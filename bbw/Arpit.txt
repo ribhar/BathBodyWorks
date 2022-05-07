@@ -14,5 +14,6 @@
 12. npm i react-elastic-carousel
 13. npm i react-toastify
 14. npm i react-idle-timer
+15. npm i uuid
 
 --------------------------------------------------------------------

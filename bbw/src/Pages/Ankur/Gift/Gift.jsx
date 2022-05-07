@@ -1,17 +1,17 @@
 import React, { useState } from "react";
-import NavBar from "../../../Components/NavBar";
-import "../Hand/Hand.css";
-import { shop_hand_soap } from "./hand_soap";
-import Footer2 from "../../../Components/Footer/Footer2";
+import "../Gift/gift.css";
+import { gift_set } from "./gift_set";
 import { useNavigate } from "react-router-dom";
+import NavBar from "../../../Components/NavBar";
+import Footer2 from "../../../Components/Footer/Footer2";
 
-const AllHandSoaps = () => {
+const Gift = () => {
   let navigate = useNavigate();
   const handleClick = (e) => {
     localStorage.setItem("proDesc", JSON.stringify(e));
     navigate("/productDetail");
   };
-  const [data, setData] = useState(shop_hand_soap);
+  const [data, setData] = useState(gift_set);
 
   const handleChange = (e) => {
     const newData = data.sort((a, b) => {
@@ -24,11 +24,12 @@ const AllHandSoaps = () => {
       }
     });
     setData([...newData]);
+    console.log("newData:", newData);
     // console.log('newData:', newData)
   };
 
   return (
-    <div>
+    <>
       <NavBar />
       {/* Top of the page */}
       <div
@@ -41,18 +42,18 @@ const AllHandSoaps = () => {
         }}
       >
         <div className="anTop">
-          <h1 className="anTit">6/$27 or 4/$20 Hand Soaps</h1>
+          <h1 className="anTit">Gift Sets</h1>
         </div>
         <div className="w-[200px] h-fit mt-[20px]">
           <h1 className="text-black font-sans font-semibold text-[18px]">
-            Total Products: ({shop_hand_soap.length})
+            Total Products: ({gift_set.length})
           </h1>
         </div>
       </div>
 
       {/* Sorting and Filteration */}
       <div className="anSort">
-        <select className="anSortBox cursor-pointer" onChange={handleChange}>
+        <select className="anSortBox" onChange={handleChange}>
           <option value="sortby">SORT BY</option>
           <option value="top">Top Seller</option>
           <option value="lth">Price Low to High</option>
@@ -63,7 +64,7 @@ const AllHandSoaps = () => {
 
       {/* Cards */}
       <div className="anMainCard">
-        {data.map((item) => {
+        {gift_set.map((item) => {
           return (
             <div className="anCard" key={item.id}>
               <center>
@@ -74,7 +75,7 @@ const AllHandSoaps = () => {
                 <h4 className="anCat1">{item.category1}</h4>
                 <br />
                 <h2 className="anAmount">${item.Amount}</h2>
-                <button onClick={() => handleClick(item)} className="anButn">
+                <button onClick={() => handleClick(item)} className="anBtn">
                   VIEW
                 </button>
                 <h2>⭐⭐⭐⭐ ({item.Rating})</h2>
@@ -84,8 +85,8 @@ const AllHandSoaps = () => {
         })}
       </div>
       <Footer2 />
-    </div>
+    </>
   );
 };
 
-export default AllHandSoaps;
+export default Gift;

@@ -1,20 +1,21 @@
 import React, { useState } from "react";
-import NavBar from "../../../Components/NavBar";
-import "../Hand/Hand.css";
-import { shop_hand_soap } from "./hand_soap";
-import Footer2 from "../../../Components/Footer/Footer2";
+import "../Aroma/aroma.css";
+import { aroma_soap } from "./aroma_soap.js";
 import { useNavigate } from "react-router-dom";
+import NavBar from "../../../Components/NavBar";
+import Footer2 from "../../../Components/Footer/Footer2";
 
-const AllHandSoaps = () => {
+const Aroma = () => {
   let navigate = useNavigate();
   const handleClick = (e) => {
     localStorage.setItem("proDesc", JSON.stringify(e));
     navigate("/productDetail");
   };
-  const [data, setData] = useState(shop_hand_soap);
+
+  const [adata, setAdata] = useState(aroma_soap);
 
   const handleChange = (e) => {
-    const newData = data.sort((a, b) => {
+    const anewData = adata.sort((a, b) => {
       if (e.target.value === "lth") {
         return a.Amount - b.Amount;
       } else if (e.target.value === "htl") {
@@ -23,14 +24,12 @@ const AllHandSoaps = () => {
         return b.Rating - a.Rating;
       }
     });
-    setData([...newData]);
-    // console.log('newData:', newData)
+    setAdata([...anewData]);
   };
 
   return (
-    <div>
+    <>
       <NavBar />
-      {/* Top of the page */}
       <div
         className="flex h-fit justify-between"
         style={{
@@ -41,11 +40,11 @@ const AllHandSoaps = () => {
         }}
       >
         <div className="anTop">
-          <h1 className="anTit">6/$27 or 4/$20 Hand Soaps</h1>
+          <h1 className="anTit">Aromatherapy Shop</h1>
         </div>
         <div className="w-[200px] h-fit mt-[20px]">
           <h1 className="text-black font-sans font-semibold text-[18px]">
-            Total Products: ({shop_hand_soap.length})
+            Total Products: ({aroma_soap.length})
           </h1>
         </div>
       </div>
@@ -63,7 +62,7 @@ const AllHandSoaps = () => {
 
       {/* Cards */}
       <div className="anMainCard">
-        {data.map((item) => {
+        {aroma_soap.map((item) => {
           return (
             <div className="anCard" key={item.id}>
               <center>
@@ -84,8 +83,8 @@ const AllHandSoaps = () => {
         })}
       </div>
       <Footer2 />
-    </div>
+    </>
   );
 };
 
-export default AllHandSoaps;
+export default Aroma;

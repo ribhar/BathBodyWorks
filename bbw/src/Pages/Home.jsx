@@ -62,7 +62,7 @@ const Home = () => {
           </p>
         </div>
         <div className=" h-[55px] w-[130px] m-auto">
-          <Link to={"/"}>
+          <Link to={"/gift-sets"}>
             <button
               className=" w-full h-full font-bold text-[#333333] bg-[#e5e5e5] mt-2 hover:text-white hover:bg-[#333333]"
               style={{ fontSize: "16px", transition: ".3s ease-in" }}
@@ -129,7 +129,7 @@ const Home = () => {
             </p>
           </div>
           <div className="m-auto w-[270px] mt-3 h-[55px]">
-            <Link to={"/"}>
+            <Link to={"/gift-sets"}>
               {" "}
               <button
                 className="w-full h-full font-bold text-white bg-[#333333] hover:text-black hover:bg-[#e5e5e5]"

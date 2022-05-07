@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import NavBar from "../Components/NavBar";
 import Footer2 from "../Components/Footer/Footer2";
 import { Link } from "react-router-dom";
@@ -8,8 +8,66 @@ import close from "../Images/close.png";
 
 const Cart = () => {
   let cartItems = JSON.parse(localStorage.getItem("cartProducts"));
-  console.log("cartItems:", cartItems);
-  if (cartItems == null) {
+  // console.log("cartItems:", cartItems);
+
+  const [cart, setCart] = useState(cartItems);
+  const totalPrice = () => {
+    const totalAmt = cart.reduce((acc, elem) => {
+      return acc + Number(elem.Amount) * Number(elem.quantity);
+    }, 0);
+    let finalAmount = totalAmt;
+    localStorage.setItem("totalAmountKey", finalAmount);
+    return totalAmt;
+  };
+  const [totalp, setTotalprice] = useState(totalPrice);
+
+  const handleDecrement = (e) => {
+    for (let i = 0; i < cart.length; i += 1) {
+      if (cart[i].id === e.id) {
+        if (cart[i].quantity > 1) {
+          cart[i].quantity--;
+          localStorage.setItem("cartProducts", JSON.stringify(cart));
+          setCart([...cart]);
+          break;
+        }
+      }
+    }
+    // console.log("Decrement");
+    const tA = totalPrice();
+    setTotalprice(tA);
+  };
+
+  const handleIncrement = (e) => {
+    for (let i = 0; i < cart.length; i += 1) {
+      if (cart[i].id === e.id) {
+        if (cart[i].quantity < 10) {
+          cart[i].quantity++;
+          localStorage.setItem("cartProducts", JSON.stringify(cart));
+          setCart([...cart]);
+          break;
+        }
+      }
+    }
+    // console.log("Increment");
+    const tA = totalPrice();
+    setTotalprice(tA);
+  };
+  const removeItem = (id) => {
+    for (let i = 0; i < cart.length; i += 1) {
+      if (cart[i].id === id) {
+        cart.splice(i, 1);
+        localStorage.setItem("cartProducts", JSON.stringify(cart));
+        setCart([...cart]);
+        // console.log("cart:", cart);
+        break;
+      }
+    }
+    // console.log("removed");
+    const tA = totalPrice();
+    setTotalprice(tA);
+  };
+
+  if (cart.length == []) {
     return (
       <>
         <NavBar />
@@ -92,7 +150,7 @@ const Cart = () => {
               className="w-[180px] h-[40px] mt-1"
               style={{ borderRadius: "6px" }}
             >
-              <Link to={"/paymnetform"}>
+              <Link to={"/cod"}>
                 <button
                   className="h-full w-full"
                   style={{
@@ -131,8 +189,8 @@ const Cart = () => {
               </div>
               <div className="ml-[5px] h-fit w-fit mt-[20px]">
                 <span className="text-[13.5px] text-[#005699]">
-                  <span className="font-bold">{cartItems.length}</span> Item
-                  added for <span className="font-bold">Shipping</span>
+                  <span className="font-bold">{cart.length}</span> Item added
+                  for <span className="font-bold">Shipping</span>
                 </span>
               </div>
             </div>
@@ -160,16 +218,16 @@ const Cart = () => {
             </h1>
           </div>
         </section>
-        {cartItems.map((items) => {
+        {cart.map((items) => {
           return (
             <section
               key={items.id}
               className="w-[955px] m-auto h-[fit-content] flex p-5"
               style={{ borderBottom: "1.5px solid black" }}
             >
-              <div className="h-[170px] w-[150px]">
+              <div className="h-[180px] w-[140px]">
                 <img
-                  className="h-[170px] w-[150px] p-2"
+                  className="h-[180px] w-[140px] p-2"
                   src={items.pImg}
                   alt=""
                 />
@@ -187,12 +245,37 @@ const Cart = () => {
               <div className="w-[86px] h-[fit-content] p-2">
                 <h1 className="text-center">$ {items.Amount}</h1>
               </div>
-              <div className="border border-red-600 h-[65px] w-[130px] ml-[140px]"></div>
+              <div className="h-[65px] w-[130px] ml-[140px] flex">
+                <div className=" w-[40px] h-fit m-auto bg-[whitesmoke]">
+                  <button
+                    className=" h-fit w-full text-[30px]"
+                    onClick={() => handleDecrement(items)}
+                  >
+                    -
+                  </button>
+                </div>
+                <div className=" w-[40px] h-fit text-center m-auto">
+                  {items.quantity}
+                </div>
+                <div className=" w-[40px] h-fit m-auto bg-[whitesmoke]">
+                  <button
+                    className=" h-fit w-full text-[30px]"
+                    onClick={() => handleIncrement(items)}
+                  >
+                    +
+                  </button>
+                </div>
+              </div>
               <div className="w-[70px]  h-[fit-content] ml-[220px]">
                 <h1 className="text-center">$ {items.Amount}</h1>
               </div>
               <div className="mt-1 w-[15px] ml-[5px] h-[15px]">
-                <img className="cursor-pointer" src={close} alt="" />
+                <img
+                  onClick={() => removeItem(items.id)}
+                  className="cursor-pointer"
+                  src={close}
+                  alt=""
+                />
               </div>
             </section>
           );
@@ -201,7 +284,95 @@ const Cart = () => {
           className="w-[955px] m-auto mt-20 h-[fit-content] flex justify-end p-4"
           style={{ borderTop: "1px solid #e5e5e5" }}
         >
-          <div className="w-[500px] h-[300px] bg-[whitesmoke]"></div>
+          <div className="w-[500px] h-[fit-content] bg-[whitesmoke]">
+            <div className="h-[fit-content] flex justify-between p-2">
+              <div className="w-[fit-content] p-2">
+                <h1 className="text-[#333333] text-[13px]">
+                  MERCHANDISE SUBTOTAL
+                </h1>
+              </div>
+              <div className="w-[fit-content] p-2">
+                <h1 className="text-[#333333] text-[13px]">${totalp}</h1>
+              </div>
+            </div>
+            <div className="h-[fit-content] flex justify-between mt-[8px]  p-2">
+              <div className="w-[fit-content] p-2">
+                <h1 className="text-[#333333] text-[13px]">
+                  ESTIMATED SHIPPING & HANDLING - Standard
+                </h1>
+              </div>
+              <div className="w-[fit-content] p-2">
+                <h1 className="text-[#333333] text-[13px]">$0.00</h1>
+              </div>
+            </div>
+            <div className="h-[fit-content] flex justify-between mt-[8px]  p-2">
+              <div className="w-[fit-content] p-2">
+                <h1 className="text-[#333333] text-[13px]">SALES TAX</h1>
+              </div>
+              <div className="w-[fit-content] p-2">
+                <h1 className="text-[#333333] text-[13px]">$0.00</h1>
+              </div>
+            </div>
+            <div className="h-[5px] w-[450px] m-auto mt-[25px] bg-gray-200"></div>
+            <section className="h-[fit-content] w-[450px] m-auto mt-2 flex justify-between p-2">
+              <div className="w-fit h-fit">
+                <h1 className="font-bold text-[16px] text-[#333333]">
+                  ORDER TOTAL (USD)
+                </h1>
+              </div>
+              <div className="w-fit h-fit">
+                <h1
+                  id="totalAmount"
+                  className="font-bold text-[16px] text-[#333333]"
+                >
+                  ${totalp}
+                </h1>
+              </div>
+            </section>
+            <section className="h-[50px] w-[450px] m-auto flex justify-around">
+              <div className="w-[220px]" style={{ borderRadius: "6px" }}>
+                <Link to={"/paypal"}>
+                  <button
+                    className="h-full w-full bg-yellow-400 hover:bg-[#e5e5e5]"
+                    style={{ borderRadius: "6px", transition: ".2s ease-in" }}
+                  >
+                    <img
+                      className="h-[20px] m-auto"
+                      src={paypal}
+                      alt="paypal"
+                    />
+                  </button>
+                </Link>
+              </div>
+              <div className="w-[220px]" style={{ borderRadius: "6px" }}>
+                <Link to={"/cod"}>
+                  <button
+                    className="h-full w-full"
+                    style={{
+                      borderRadius: "6px",
+                      transition: ".2s ease-in",
+                      backgroundColor: "green",
+                    }}
+                  >
+                    <i className="bx bxs-lock " style={{ color: "#ffff" }}></i>{" "}
+                    <span className="text-white font-semibold">CHECKOUT</span>
+                  </button>
+                </Link>
+              </div>
+            </section>
+            <section className="w-[450px] m-auto h-[fit-content] p-3">
+              <div className="w-fit h-fit">
+                <h1 className="text-[13px] text-[#666666] leading-6">
+                  International Shoppers
+                </h1>
+              </div>
+              <div className="w-fit h-fit">
+                <h1 className="text-[13px] text-[#666666] leading-6">
+                  All prices are displayed and processed in US dollars (USD).
+                </h1>
+              </div>
+            </section>
+          </div>
         </section>
         <Footer2 />
       </>

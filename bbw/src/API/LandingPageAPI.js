@@ -5,7 +5,7 @@ export const TodaysTopOfferSlider = [
     pName: "Spring Gift Bundle",
     discount: "$40 with any $40 purchase",
     limit: "Limit 1",
-    link: "/",
+    link: "/gift-sets",
   },
   {
     id: "ar2",
@@ -13,7 +13,7 @@ export const TodaysTopOfferSlider = [
     pName: "All Full-Size Body Care (Including Aromatherapy!)",
     discount: "Buy 3, Get 3 FREE",
     limit: "Lowest-priced items are free",
-    link: "/",
+    link: "/aromatherapy",
   },
   {
     id: "ar3",
@@ -21,7 +21,7 @@ export const TodaysTopOfferSlider = [
     pName: "Wallflowers Fragrance Refills",
     discount: "5/$18 or 7/$24",
     limit: "",
-    link: "/",
+    link: "/all-wallflowers",
   },
   {
     id: "ar4",
@@ -29,7 +29,7 @@ export const TodaysTopOfferSlider = [
     pName: "Mother's Day Gifts",
     discount: "Under $15",
     limit: "",
-    link: "/",
+    link: "/gift-sets",
   },
   {
     id: "ar5",
@@ -37,7 +37,7 @@ export const TodaysTopOfferSlider = [
     pName: "Hand Soaps",
     discount: "6/$27 or 4/$20",
     limit: "",
-    link: "/",
+    link: "/all-hand-soaps",
   },
   {
     id: "ar6",
@@ -45,7 +45,7 @@ export const TodaysTopOfferSlider = [
     pName: "Single Wick Candles",
     discount: "2/$22",
     limit: "",
-    link: "/",
+    link: "/all-candles",
   },
   {
     id: "ar7",
@@ -53,7 +53,7 @@ export const TodaysTopOfferSlider = [
     pName: "Travel, Hand & Lip Care",
     discount: "Buy 2 Get 1 Free",
     limit: "Lowest-priced item is free",
-    link: "/",
+    link: "/body-care",
   },
 ];
 
