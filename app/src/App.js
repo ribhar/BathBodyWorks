@@ -6,19 +6,19 @@ import WallFlowersAt from "./componants/Home-Fragrance/CompAt/WallFlowersAt";
 import RoomSpraysAt from "./componants/Home-Fragrance/CompAt/RoomSpraysAt";
 import CarFragAt from "./componants/Home-Fragrance/CompAt/CarFragAt";
 
-import {Routes, Route} from "react-router-dom"
+import { Routes, Route } from "react-router-dom";
 
 import NAV from "./componants/xyz/NAV";
 import Home from "./componants/xyz/Page/Home";
 import About from "./componants/xyz/Page/About";
 import NewHoFragAt from "./componants/Home-Fragrance/CompAt/NewHoFragAt";
 import F_Q from "./componants/About&F&Q/F_Q";
+import TopOffer from "./componants/TopOffers/TopOffer";
 
 function App() {
   return (
     <div className="App">
-      
-      <NAV/>
+      <NAV />
       <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="/about" element={<About />}/>
@@ -31,7 +31,7 @@ function App() {
       </Routes>
 
       <F_Q/>
-    
+      <TopOffer />
       <Footer />
     </div>
   );

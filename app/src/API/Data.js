@@ -1284,3 +1284,4 @@ export const newFragrance = [
     width: 200,
   },
 ];
+
