@@ -10,16 +10,17 @@ import { Routes, Route } from "react-router-dom";
 
 import NAV from "./componants/xyz/NAV";
 import Home from "./componants/xyz/Page/Home";
-import About from "./componants/xyz/Page/About";
+
 import NewHoFragAt from "./componants/Home-Fragrance/CompAt/NewHoFragAt";
 import F_Q from "./componants/About&F&Q/F_Q";
 import TopOffer from "./componants/TopOffers/TopOffer";
+import About from "./componants/About&F&Q/About";
 
 function App() {
   return (
     <div className="App">
       <NAV />
-      <Routes>
+      {/* <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="/about" element={<About />}/>
         <Route path="/fragrance" element={<HomeFragrance />}/>
@@ -31,7 +32,9 @@ function App() {
       </Routes>
 
       <F_Q/>
-      <TopOffer />
+      <TopOffer /> */}
+      
+      <About/>
       <Footer />
     </div>
   );
