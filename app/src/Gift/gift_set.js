@@ -117,7 +117,6 @@ export const gift_set= [{ "id" : "an1",
     "Amount": "34.95",
     "Rating": "1",
     "desc":"What it smells like: the fragrance equivalent of your little black dress—beautiful, timeless and undeniably feminine. Fragrance notes: Japanese cherry blossom, Asian pear, fresh mimosa petals, white jasmine and blushing sandalwood.",
-
   },{ "id" : "an15",
     "pImg": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw8c4423d3/crop/025143509_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
     "category": "New Fragrance",
