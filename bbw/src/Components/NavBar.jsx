@@ -1,12 +1,15 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import AnnounceBar from "./AnnounceBar";
 import PickUpImg from "../Images/PickUpImg.PNG";
 import Example from "./CategoriesNav";
 import { Link, useNavigate } from "react-router-dom";
 import "../CSS/divAcc.css";
 import "../CSS/LandingRes.css";
+import { CartContext } from "../Context/CartProvider";
 
 const NavBar = () => {
+  const {cart} = useContext(CartContext)
+  
   const navigate = useNavigate();
   let UserInfo = JSON.parse(localStorage.getItem("userData")) || [];
   let [userName] = useState(UserInfo.fName);
@@ -14,8 +17,8 @@ const NavBar = () => {
     localStorage.removeItem("userData");
     navigate("/account");
   };
-  const Cart = JSON.parse(localStorage.getItem("cartProducts")) || [];
-  const [cart] = useState(Cart.length);
+  // const Cart = JSON.parse(localStorage.getItem("cartProducts")) || [];
+  // const [cart] = useState(Cart.length);
   return (
     <div>
       {/* AnnounceBar */}
@@ -33,20 +36,20 @@ const NavBar = () => {
 
       {/* Main Navbar Start */}
       <div
-        className="h-[fit-content]"
+        className="h-[fit-content] divsho"
         style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
       >
-        <div className="h-[80px] flex">
-          <div className="m-auto">
+        <div className="h-[80px] flex linediv">
+          <div className="m-auto divlogo">
             <Link to={"/"}>
               <img
                 src="https://www.bathandbodyworks.com/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dw255cc1f3/images/svg-icons/Logos-main.svg"
                 alt="logo"
-                className="h-[35px] mx-[500px]"
+                className="h-[35px] mx-[500px] logo"
               />
             </Link>
           </div>
-          <div className="w-[600px] flex items-center">
+          <div className="w-[600px] flex items-center acccartdiv">
             <div
               id="searchBar"
               className="border border-black h-[35px] w-[250px] ml-3"
@@ -117,7 +120,7 @@ const NavBar = () => {
               </div>
             </div>
 
-            <div className="w-[50px] h-[45px] rounded-full">
+            <div className="cartLogo w-[50px] h-[45px] rounded-full cartAcc">
               <Link to={"/cart"}>
                 <img
                   className="w-[30px] h-[30px] m-1.5 cursor-pointer"

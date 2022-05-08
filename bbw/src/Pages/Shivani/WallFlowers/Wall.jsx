@@ -63,7 +63,7 @@ export const ShopWallFlowers = () => {
 
       {/* Cards */}
       <div className="anMainCard">
-        {shop_wallflower.map((item) => {
+        {data.map((item) => {
           return (
             <div className="anCard" key={item.id}>
               <center>

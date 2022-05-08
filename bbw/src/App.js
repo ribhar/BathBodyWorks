@@ -1,8 +1,11 @@
+import { CartProvider } from "./Context/CartProvider";
 import MainRoutes from "./Routes/MainRoutes";
 function App() {
   return (
     <>
-      <MainRoutes />
+      <CartProvider>
+        <MainRoutes />
+      </CartProvider>
     </>
   );
 }

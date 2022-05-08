@@ -1248,7 +1248,7 @@ export const newFragrance = [
     width: 200,
   },
   {
-    id: "AtC12",
+    id: "AtCC12",
     name: "Iced Lemon Pound Cake",
     pImg: "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw536b669c/crop/026480791_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
     category: "",

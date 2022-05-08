@@ -62,7 +62,7 @@ const Aroma = () => {
 
       {/* Cards */}
       <div className="anMainCard">
-        {aroma_soap.map((item) => {
+        {adata.map((item) => {
           return (
             <div className="anCard" key={item.id}>
               <center>

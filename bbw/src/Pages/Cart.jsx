@@ -1,12 +1,14 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import NavBar from "../Components/NavBar";
 import Footer2 from "../Components/Footer/Footer2";
 import { Link } from "react-router-dom";
 import paypal from "../Images/paypal.png";
 import shippingpick from "../Images/shippingpick.PNG";
 import close from "../Images/close.png";
+import { CartContext } from "../Context/CartProvider";
 
 const Cart = () => {
+  const {setCartLength} = useContext(CartContext);
   let cartItems = JSON.parse(localStorage.getItem("cartProducts"));
   // console.log("cartItems:", cartItems);
 
@@ -58,6 +60,7 @@ const Cart = () => {
         cart.splice(i, 1);
         localStorage.setItem("cartProducts", JSON.stringify(cart));
         setCart([...cart]);
+        setCartLength(cart.length);
         // console.log("cart:", cart);
         break;
       }

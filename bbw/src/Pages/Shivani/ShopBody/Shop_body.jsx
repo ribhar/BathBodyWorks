@@ -63,7 +63,7 @@ export const ALLShop_body = () => {
 
       {/* Cards */}
       <div className="anMainCard">
-        {shop_body.map((item) => {
+        {data.map((item) => {
           return (
             <div className="anCard" key={item.id}>
               <center>

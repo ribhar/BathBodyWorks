@@ -63,7 +63,7 @@ export const Can = () => {
 
       {/* Cards */}
       <div className="anMainCard">
-        {shop_candle.map((item) => {
+        {data.map((item) => {
           return (
             <div className="anCard" key={item.id}>
               <center>

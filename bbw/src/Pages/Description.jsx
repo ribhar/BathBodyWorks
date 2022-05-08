@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import NavBar from "../Components/NavBar";
 import Footer2 from "../Components/Footer/Footer2";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { CartContext } from "../Context/CartProvider";
 
 const Description = () => {
+  const { setCartLength } = useContext(CartContext);
   const notify = () =>
     toast.success("Added to Cart", {
       position: "top-center",
@@ -40,6 +42,7 @@ const Description = () => {
       //   alert("item Addes")
       notify();
     }
+    setCartLength(cartItems.length);
   };
 
   let descData = JSON.parse(localStorage.getItem("proDesc"));

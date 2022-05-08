@@ -25,7 +25,7 @@ const Gift = () => {
     });
     setData([...newData]);
     // console.log("newData:", newData);
-    // console.log('newData:', newData)
+    console.log("newData:", newData);
   };
 
   return (
@@ -64,7 +64,7 @@ const Gift = () => {
 
       {/* Cards */}
       <div className="anMainCard">
-        {gift_set.map((item) => {
+        {data.map((item) => {
           return (
             <div className="anCard" key={item.id}>
               <center>
