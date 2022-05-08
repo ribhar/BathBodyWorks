@@ -25,7 +25,7 @@ const Gift = () => {
     });
     setData([...newData]);
     // console.log("newData:", newData);
-    console.log("newData:", newData);
+    // console.log("newData:", newData);
   };
 
   return (
