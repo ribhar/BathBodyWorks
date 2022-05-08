@@ -1,2 +1,0 @@
-installed react-router-dom;
-installed styled-components;
