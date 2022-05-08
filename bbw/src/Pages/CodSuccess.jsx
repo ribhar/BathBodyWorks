@@ -5,7 +5,7 @@ import box from "../Images/box.PNG";
 
 const CodSuccess = () => {
   let cD = JSON.parse(localStorage.getItem("customerDetails"));
-  console.log("cD:", cD);
+//   console.log("cD:", cD);
 
   if (
     cD.mobile == "" ||

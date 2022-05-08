@@ -14,7 +14,7 @@ const navigation = {
           id: "newArrivals",
           name: "NEW & NOW",
           items: [
-            { name: "New Arrivals", Link: "/" },
+            { name: "New Arrivals", Link: "/newhomefrag" },
             { name: "Men's Shop", Link: "/" },
             { name: "Laundary Fragrances", Link: "/" },
             { name: "Best Sellers", Link: "/" },
@@ -113,7 +113,7 @@ const navigation = {
           id: "featured",
           name: "FEATURED",
           items: [
-            { name: "New Home Fragrance", Link: "/" },
+            { name: "New Home Fragrance", Link: "/newhomefrag" },
             { name: "The White Barn Shop", Link: "/" },
             { name: "Auto Refresh Wallflowers", Link: "/" },
           ],
@@ -122,7 +122,7 @@ const navigation = {
           id: "candles",
           name: "CANDLES",
           items: [
-            { name: "All Candles", Link: "/" },
+            { name: "All Candles", Link: "/allcandlesAt" },
             { name: "3 - Wick Candles", Link: "/" },
             { name: "Single Wick Candles", Link: "/" },
             { name: "Candle Holders", Link: "/" },
@@ -132,10 +132,10 @@ const navigation = {
           id: "airfreshners",
           name: "AIR FRESHNERS",
           items: [
-            { name: "All Wallflowers", Link: "/" },
-            { name: "Wallflowers Plugs", Link: "/" },
-            { name: "Wallflowers Refills", Link: "/" },
-            { name: "Car Fragrance", Link: "/" },
+            { name: "Home Fragrance", Link: "/homefragrance_At" },
+            { name: "All Wallflowers", Link: "/wallflowersAt" },
+            { name: "Room Sprays", Link: "/roomsprays" },
+            { name: "Car Fragrance", Link: "/carfragranceAt" },
           ],
         },
       ],
@@ -181,7 +181,7 @@ const navigation = {
       ],
     },
   ],
-  pages: [{ name: "TOP OFFERS", Link: "/" }],
+  pages: [{ name: "TOP OFFERS", Link: "/topoffers" }],
 };
 
 function classNames(...classes) {

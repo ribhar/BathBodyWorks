@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styles from "../Footer/Footer.module.css";
 
-
 const Footer2 = () => {
   return (
     <div className={styles.footerAt}>
@@ -43,7 +42,7 @@ const Footer2 = () => {
         </div>
         <div>
           <h5 className={styles.h5TagAt}>CUSTOMER CARE</h5>
-          <Link to={"/"}>
+          <Link to={"/faq"}>
             {" "}
             <p style={{ marginTop: "3px" }}>
               <span className={styles.footer_upATagAt}>Help & FAQs</span>
@@ -117,7 +116,7 @@ const Footer2 = () => {
         </div>
         <div>
           <h5 className={styles.h5TagAt}>DISCOVER</h5>
-          <Link to={"/"}>
+          <Link to={"/about-us"}>
             {" "}
             <p style={{ marginTop: "3px" }}>
               <span className={styles.footer_upATagAt}>About Us</span>

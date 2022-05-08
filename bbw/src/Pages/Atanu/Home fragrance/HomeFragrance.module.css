@@ -1,0 +1,14 @@
+.catHoAt {
+    height: 40px;
+    width: 180px;
+    margin: auto;
+    text-align: center;
+    border: 2px solid black;
+  
+    margin-top: 10px;
+  }
+  .catHoAt:hover {
+    background-color: black;
+    color: rgb(189, 179, 179);
+    
+  }

@@ -1,18 +1,17 @@
 import React, { useState } from "react";
+import "../ShopBody/first.css";
+import { shop_body } from "./firstshop";
 import NavBar from "../../../Components/NavBar";
-import "../Hand/Hand.css";
-import { shop_hand_soap } from "./hand_soap";
 import Footer2 from "../../../Components/Footer/Footer2";
 import { useNavigate } from "react-router-dom";
 
-const AllHandSoaps = () => {
+export const ALLShop_body = () => {
   let navigate = useNavigate();
   const handleClick = (e) => {
     localStorage.setItem("proDesc", JSON.stringify(e));
     navigate("/productDetail");
   };
-  
-  const [data, setData] = useState(shop_hand_soap);
+  const [data, setData] = useState(shop_body);
 
   const handleChange = (e) => {
     const newData = data.sort((a, b) => {
@@ -42,11 +41,11 @@ const AllHandSoaps = () => {
         }}
       >
         <div className="anTop">
-          <h1 className="anTit">6/$27 or 4/$20 Hand Soaps</h1>
+          <h1 className="anTit">All Body Care</h1>
         </div>
         <div className="w-[200px] h-fit mt-[20px]">
           <h1 className="text-black font-sans font-semibold text-[18px]">
-            Total Products: ({shop_hand_soap.length})
+            Total Products: ({shop_body.length})
           </h1>
         </div>
       </div>
@@ -64,7 +63,7 @@ const AllHandSoaps = () => {
 
       {/* Cards */}
       <div className="anMainCard">
-        {data.map((item) => {
+        {shop_body.map((item) => {
           return (
             <div className="anCard" key={item.id}>
               <center>
@@ -88,5 +87,3 @@ const AllHandSoaps = () => {
     </div>
   );
 };
-
-export default AllHandSoaps;

@@ -1,18 +1,17 @@
 import React, { useState } from "react";
+import "../Candles/candle1.css";
+import { shop_candle } from "./Shop_candles";
 import NavBar from "../../../Components/NavBar";
-import "../Hand/Hand.css";
-import { shop_hand_soap } from "./hand_soap";
 import Footer2 from "../../../Components/Footer/Footer2";
 import { useNavigate } from "react-router-dom";
 
-const AllHandSoaps = () => {
+export const Can = () => {
   let navigate = useNavigate();
   const handleClick = (e) => {
     localStorage.setItem("proDesc", JSON.stringify(e));
     navigate("/productDetail");
   };
-  
-  const [data, setData] = useState(shop_hand_soap);
+  const [data, setData] = useState(shop_candle);
 
   const handleChange = (e) => {
     const newData = data.sort((a, b) => {
@@ -28,7 +27,7 @@ const AllHandSoaps = () => {
     // console.log('newData:', newData)
   };
 
-  return (
+  return (  
     <div>
       <NavBar />
       {/* Top of the page */}
@@ -42,11 +41,11 @@ const AllHandSoaps = () => {
         }}
       >
         <div className="anTop">
-          <h1 className="anTit">6/$27 or 4/$20 Hand Soaps</h1>
+          <h1 className="anTit">All Candles</h1>
         </div>
         <div className="w-[200px] h-fit mt-[20px]">
           <h1 className="text-black font-sans font-semibold text-[18px]">
-            Total Products: ({shop_hand_soap.length})
+            Total Products: ({shop_candle.length})
           </h1>
         </div>
       </div>
@@ -64,7 +63,7 @@ const AllHandSoaps = () => {
 
       {/* Cards */}
       <div className="anMainCard">
-        {data.map((item) => {
+        {shop_candle.map((item) => {
           return (
             <div className="anCard" key={item.id}>
               <center>
@@ -88,5 +87,3 @@ const AllHandSoaps = () => {
     </div>
   );
 };
-
-export default AllHandSoaps;

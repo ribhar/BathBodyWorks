@@ -91,7 +91,7 @@ const SignUPSignIn = () => {
     setSignup({
       ...signup,
     });
-    console.log(signup);
+    // console.log(signup);
     // alert("Signup successfull");
     notifySignup();
   };

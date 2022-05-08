@@ -5,7 +5,7 @@ import "../CSS/success.css";
 
 const PaymentSuccess = () => {
   let cD = JSON.parse(localStorage.getItem("customerDetails"));
-  console.log("cD:", cD);
+  // console.log("cD:", cD);
   let amount = JSON.parse(localStorage.getItem("totalAmountKey"));
 
   if (
