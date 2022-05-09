@@ -1,0 +1,16 @@
+.topAtOffAt{
+    width: 150px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    margin-left: 70px;
+    font-weight: bold;
+    border: 2px solid black;
+}
+.topAtOffAt:hover{
+    background-color: black;
+    color: white;
+}
+
+
+/* rgb(160, 153, 153) */
