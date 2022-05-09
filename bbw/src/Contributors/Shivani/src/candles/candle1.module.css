@@ -1,0 +1,47 @@
+.shivania{
+    /* border:  2px solid black; */
+    height: 1200px;
+    width: 70%;
+    margin: 1% 0% 0% 15%;
+    /* margin-right: 2%; */
+}
+.shivanii{
+    margin-left: 80%;
+    background-color: gray;
+    border-radius: 5px;
+}
+/* .shivanib{
+    border: 2px solid red;
+    height: 1500px;
+    width: 80%;
+    margin-left: 15%;
+} */
+.shivanic{
+    margin-top:50px;
+      margin-left:5%;
+      display: grid;
+      grid-template-columns: repeat(4,25%);
+      gap:3%;
+      justify-content: center;
+} img{
+    height: 20px;
+    margin-left:0%;
+    /* border: 1px solid black; */
+}
+.shivanic button{
+    /* border: 1px solid black; */
+    width: 150px;
+    background-color: black;
+    color: white;
+    
+}
+.shivanic button:hover{
+    background-color: gray;
+    color: black;
+}
+.shiv11{
+    /* border:1px solid black; */
+    margin-left:16%
+}.shivanic div{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
