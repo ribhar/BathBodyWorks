@@ -8,18 +8,25 @@ Bath &amp; Body Works, LLC. is an American retail store chain which sells soaps,
 
  <h2>Landing Page</h2>
     <img src="assets/land.png" alt="">
+    <img src="assets/land.png" />
     <h2>Footer Sitemap</h2>
     <img src="assets/footer.png" alt="">
+     <img src="assets/footer.png" />
   <h2>Sign-up/Sign-in Page</h2>
     <img src="assets/sign.png" alt="">
+    <img src="assets/sign.png" />
        <h2>Product List</h2>
     <img src="assets/footer.png" alt="">
+    <img src="assets/list.png" />
         <h2>Cart Page</h2>
     <img src="assets/cart.PNG" alt="">
+    <img src="assets/cart.PNG" />
       <h2>Payment page</h2>
     <img src="assets/pay.PNG" alt="">
+    <img src="assets/pay.PNG" />
        <h2>Payment Successful</h2>
     <img src="assets/success.PNG" alt="">
+    <img src="assets/success.PNG" />
     <h1>[Getting Started]</h1>
     <h3>Execution</h3>
     <p>If you want to run our project in your local machine</p>
