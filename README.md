@@ -7,26 +7,19 @@ Bath &amp; Body Works, LLC. is an American retail store chain which sells soaps,
 
 
  <h2>Landing Page</h2>
-    <img src="assets/land.png" alt="">
-    <img src="assets/land.png" />
+    <img src="https://github.com/ribhar/Bath-BodyWorks/blob/main/assests/land.png" />
     <h2>Footer Sitemap</h2>
-    <img src="assets/footer.png" alt="">
-     <img src="assets/footer.png" />
+     <img src="https://github.com/ribhar/Bath-BodyWorks/blob/main/assests/footer.png" />
   <h2>Sign-up/Sign-in Page</h2>
-    <img src="assets/sign.png" alt="">
-    <img src="assets/sign.png" />
+    <img src="https://github.com/ribhar/Bath-BodyWorks/blob/main/assests/sign.png" />
        <h2>Product List</h2>
-    <img src="assets/footer.png" alt="">
-    <img src="assets/list.png" />
+    <img src="https://github.com/ribhar/Bath-BodyWorks/blob/main/assests/list.png" />
         <h2>Cart Page</h2>
-    <img src="assets/cart.PNG" alt="">
-    <img src="assets/cart.PNG" />
+    <img src="https://github.com/ribhar/Bath-BodyWorks/blob/main/assests/cart.PNG" />
       <h2>Payment page</h2>
-    <img src="assets/pay.PNG" alt="">
-    <img src="assets/pay.PNG" />
+    <img src="https://github.com/ribhar/Bath-BodyWorks/blob/main/assests/pay.PNG" />
        <h2>Payment Successful</h2>
-    <img src="assets/success.PNG" alt="">
-    <img src="assets/success.PNG" />
+    <img src="https://github.com/ribhar/Bath-BodyWorks/blob/main/assests/success.PNG" />
     <h1>[Getting Started]</h1>
     <h3>Execution</h3>
     <p>If you want to run our project in your local machine</p>
