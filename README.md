@@ -7,19 +7,19 @@ Bath &amp; Body Works, LLC. is an American retail store chain which sells soaps,
 
 
  <h2>Landing Page</h2>
-    <img src="ScreenShots/HOMEPAGE.png" alt="">
-  <h2>Login Page</h2>
-    <img src="ScreenShots/LOGIN_PAGE.png" alt="">
-       <h2>Dashboard</h2>
-    <img src="ScreenShots/DASHBOARD.png" alt="">
-        <h2>Products-Page</h2>
-    <img src="ScreenShots/PRODUCTSPAGE.png" alt="">
-      <h2>Products-Description page</h2>
-    <img src="ScreenShots/DESCRIPTION_PAGE.png" alt="">
-       <h2>Cart-Page</h2>
-    <img src="ScreenShots/CART_PAGE.png" alt="">
-        <h2>Payment-Page</h2>
-    <img src="ScreenShots/PAYMENT_PAGE.png" alt="">
+    <img src="assets/land.png" alt="">
+    <h2>Footer Sitemap</h2>
+    <img src="assets/footer.png" alt="">
+  <h2>Sign-up/Sign-in Page</h2>
+    <img src="assets/sign.png" alt="">
+       <h2>Product List</h2>
+    <img src="assets/footer.png" alt="">
+        <h2>Cart Page</h2>
+    <img src="assets/cart.PNG" alt="">
+      <h2>Payment page</h2>
+    <img src="assets/pay.PNG" alt="">
+       <h2>Payment Successful</h2>
+    <img src="assets/success.PNG" alt="">
     <h1>[Getting Started]</h1>
     <h3>Execution</h3>
     <p>If you want to run our project in your local machine</p>
