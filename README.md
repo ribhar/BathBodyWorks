@@ -3,7 +3,7 @@ Bath &amp; Body Works, LLC. is an American retail store chain which sells soaps,
 
 ### Live deployed URL: https://bathandbodyworksclone.netlify.app/
 
-### Blog Post: https://medium.com/@ribhar/bath-body-works-c4534717e026
+### Blog URL: https://medium.com/@ribhar/bath-body-works-c4534717e026
 
 
  <h2>Landing Page</h2>
