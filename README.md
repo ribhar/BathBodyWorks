@@ -12,7 +12,7 @@ Bath &amp; Body Works, LLC. is an American retail store chain which sells soaps,
      <img src="https://github.com/ribhar/Bath-BodyWorks/blob/main/assests/footer.png" />
   <h2>Sign-up/Sign-in Page</h2>
     <img src="https://github.com/ribhar/Bath-BodyWorks/blob/main/assests/sign.png" />
-       <h2>Product List</h2>
+       <h2>Product Listing</h2>
     <img src="https://github.com/ribhar/Bath-BodyWorks/blob/main/assests/list.png" />
         <h2>Cart Page</h2>
     <img src="https://github.com/ribhar/Bath-BodyWorks/blob/main/assests/cart.PNG" />
